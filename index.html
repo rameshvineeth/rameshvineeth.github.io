@@ -1,0 +1,2543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vineeth Ramesh | Applied AI Engineer (Sydney, AU)</title>
+  <meta name="description"
+    content="Portfolio of Vineeth Ramesh — Applied AI Engineer specializing in statistical modeling, time-series forecasting, production NLP/RAG architectures, and MCP agent protocols. Master of CS (HCI) at University of Sydney." />
+  <meta name="keywords"
+    content="Vineeth Ramesh, AI Engineer, Sydney, Australia, Machine Learning, RAG, MCP, LangGraph, Time-Series, PyTorch, Cumen, Block Majority" />
+  <meta name="author" content="Vineeth Ramesh" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Google Fonts: Plus Jakarta Sans, Fraunces (Editorial Serif), JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/src/styles/tokens.css" />
+  <link rel="stylesheet" href="/src/styles/base.css" />
+  <link rel="stylesheet" href="/src/styles/layout.css" />
+  <link rel="stylesheet" href="/src/styles/components.css" />
+  <link rel="stylesheet" href="/src/styles/animations.css" />
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- =========================================================================
+       Site Header / Navigation
+       ========================================================================= -->
+  <header class="site-header" id="site-header">
+    <div class="nav-wrapper">
+      <div class="nav-left">
+        <!-- Bespoke Neural Core Grid Logo & Wordmark for Vineeth -->
+        <a href="#" class="brand-logo" id="brand-logo-trigger" title="Vineeth Ramesh" aria-label="Vineeth Ramesh Home">
+          <svg class="brand-icon" id="brand-logo-svg" width="28" height="28" viewBox="0 0 100 100" fill="currentColor"
+            aria-hidden="true">
+            <!-- Outer Border Frame with refined corner radius -->
+            <path class="logo-frame" fill-rule="evenodd"
+              d="M8 3h84a5 5 0 0 1 5 5v84a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5zm3 5.5h78a2.5 2.5 0 0 1 2.5 2.5v78a2.5 2.5 0 0 1-2.5 2.5H11a2.5 2.5 0 0 1-2.5-2.5V11a2.5 2.5 0 0 1 2.5-2.5z" />
+            <!-- Inner Core Plate with 9 Bold Cutout Apertures -->
+            <path class="logo-plate" fill-rule="evenodd"
+              d="M14 14h72v72H14ZM21.5 21.5h13.5v13.5H21.5ZM43.25 21.5h13.5v13.5H43.25ZM65 21.5h13.5v13.5H65ZM21.5 43.25h13.5v13.5H21.5ZM43.25 43.25h13.5v13.5H43.25ZM65 43.25h13.5v13.5H65ZM21.5 65h13.5v13.5H21.5ZM43.25 65h13.5v13.5H43.25ZM65 65h13.5v13.5H65Z" />
+            <!-- 9 Micro-Node Lights for Clean Hover & Click Ripple Animation -->
+            <g class="logo-matrix-nodes" aria-hidden="true">
+              <rect x="21.5" y="21.5" width="13.5" height="13.5" rx="2" class="matrix-node node-corner node-tl" />
+              <rect x="43.25" y="21.5" width="13.5" height="13.5" rx="2" class="matrix-node node-edge node-t" />
+              <rect x="65" y="21.5" width="13.5" height="13.5" rx="2" class="matrix-node node-corner node-tr" />
+              <rect x="21.5" y="43.25" width="13.5" height="13.5" rx="2" class="matrix-node node-edge node-l" />
+              <rect x="43.25" y="43.25" width="13.5" height="13.5" rx="2" class="matrix-node node-center" />
+              <rect x="65" y="43.25" width="13.5" height="13.5" rx="2" class="matrix-node node-edge node-r" />
+              <rect x="21.5" y="65" width="13.5" height="13.5" rx="2" class="matrix-node node-corner node-bl" />
+              <rect x="43.25" y="65" width="13.5" height="13.5" rx="2" class="matrix-node node-edge node-b" />
+              <rect x="65" y="65" width="13.5" height="13.5" rx="2" class="matrix-node node-corner node-br" />
+            </g>
+          </svg>
+          <span class="brand-name">vineeth</span>
+        </a>
+
+        <!-- Navigation Menu matching Tines -->
+        <nav class="nav-menu" aria-label="Main Navigation">
+          <a href="#chandelier" class="nav-item nav-item-pill">Projects</a>
+          <a href="#workflow-scrubber" class="nav-item">Experience</a>
+          <a href="#credentials" class="nav-item">Credentials</a>
+          <a href="#contact" class="nav-item">Contact</a>
+        </nav>
+      </div>
+
+      <div class="nav-actions">
+        <!-- Clean Text Links matching Tines (Log in / Sign up) -->
+        <a href="https://github.com/rameshvineeth" target="_blank" rel="noopener noreferrer"
+          class="nav-text-btn">GitHub</a>
+        <button class="nav-text-btn action-copy-email" title="Copy email to clipboard">Copy Email</button>
+
+        <!-- BOOK A CHAT Pill Button linking to Calendly -->
+        <a href="https://calendly.com/work-vineethramesh/30min" target="_blank" rel="noopener noreferrer" class="btn-tines-demo">BOOK A CHAT</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- =========================================================================
+         Hero Section (Screenshot 1)
+         ========================================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="site-container-wide">
+        <div class="hero-flanked-layout">
+          <!-- Left Column: Copy, Headline & CTAs -->
+          <div class="hero-copy-column">
+            <div class="hero-copy">
+              <!-- Announcement Pill Badge -->
+              <a href="https://linkedin.com/in/rameshvineeth" target="_blank" rel="noopener noreferrer"
+                class="announcement-bar">
+                <span class="announcement-content">
+                  <span>AI Engineer · Sydney, AU</span>
+                  <svg width="10" height="9" viewBox="0 0 10 9" fill="currentColor">
+                    <path
+                      d="M5.3358 0.465698L8.86381 4.0063L5.34841 7.5343L4.668 6.8539L6.9864 4.5355H0.799805V3.4771H6.9864L4.65541 1.1461L5.3358 0.465698Z">
+                    </path>
+                  </svg>
+                </span>
+              </a>
+
+              <!-- Main Bold Headline -->
+              <h1 class="hero-heading">
+                <span>
+                  <span class="hero-word">Everyone</span>
+                  <span class="hero-word">is</span>
+                  <span class="hero-word">building</span>
+                  <span class="hero-word">AI</span>
+                  <span class="hero-word">prototypes.</span>
+                </span>
+                <span class="hero-line-2">
+                  <span class="hero-word">I</span>
+                  <span class="hero-word">engineer</span>
+                  <span class="hero-word">high-throughput</span>
+                  <span class="hero-word">AI</span>
+                  <span class="hero-word">systems</span>
+                  <span class="hero-word">at</span>
+                  <span class="hero-word">scale.</span>
+                </span>
+              </h1>
+
+              <!-- Call to Action Buttons -->
+              <div class="hero-actions">
+                <a href="#chandelier" class="btn-pill btn-purple-filled">View Work &amp; Code</a>
+                <a href="https://linkedin.com/in/rameshvineeth" target="_blank" rel="noopener noreferrer"
+                  class="btn-pill btn-frosted">LinkedIn ↗</a>
+                <span class="btn-pill btn-frosted" style="cursor: default;">
+                  <span style="color: #10B981;">●</span> AU Subclass 485 (Full Rights)
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Dedicated Botanical CRT Floral Chandelier (Completely Separate Column) -->
+          <div class="hero-chandelier-column">
+            <div class="hero-chandelier-scaler">
+              <aside class="hero-chandelier-side" aria-label="Interactive Botanical Floral Chandelier">
+                <svg class="hero-chandelier-svg" viewBox="0 0 450 560" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <!-- Top Hanging Ceiling Mount & Rod -->
+                  <circle cx="150" cy="6" r="4.5" stroke="#5236AB" stroke-width="2.4" fill="#FAF7FE" />
+                  <line x1="150" y1="10" x2="150" y2="36" stroke="#5236AB" stroke-width="2.8" stroke-linecap="round" />
+                  <rect x="139" y="27" width="22" height="11" rx="3" fill="#E8DFF5" stroke="#5236AB" stroke-width="2.4" />
+
+                  <!-- Lavender Conduit Pipes (Layer 1: Outer Border #5236AB) -->
+                  <!-- Pipe 1: Monitor 1 down to Monitor 3 -->
+                  <path d="M 158 148 C 165 192, 205 226, 252 245" stroke="#5236AB" stroke-width="17" stroke-linecap="round" />
+                  <!-- Pipe 2: Monitor 2 down to Monitor 3 -->
+                  <path d="M 315 198 C 315 214, 308 228, 302 245" stroke="#5236AB" stroke-width="17" stroke-linecap="round" />
+                  <!-- Pipe 3: Monitor 4 down to Monitor 5 -->
+                  <path d="M 68 238 C 65 270, 75 295, 88 316" stroke="#5236AB" stroke-width="17" stroke-linecap="round" />
+                  <!-- Pipe 4: Deep sweeping U-curve from Monitor 3 up to Monitor 5 -->
+                  <path d="M 315 382 C 315 472, 240 508, 160 482 C 115 466, 88 436, 88 418" stroke="#5236AB" stroke-width="17" stroke-linecap="round" />
+                  <!-- Pipe 5: Monitor 5 down to Monitor 6 -->
+                  <path d="M 65 418 C 65 428, 63 438, 63 448" stroke="#5236AB" stroke-width="17" stroke-linecap="round" />
+
+                  <!-- Lavender Conduit Pipes (Layer 2: Inner Fill #EDE7FB) -->
+                  <path d="M 158 148 C 165 192, 205 226, 252 245" stroke="#EDE7FB" stroke-width="11.5" stroke-linecap="round" />
+                  <path d="M 315 198 C 315 214, 308 228, 302 245" stroke="#EDE7FB" stroke-width="11.5" stroke-linecap="round" />
+                  <path d="M 68 238 C 65 270, 75 295, 88 316" stroke="#EDE7FB" stroke-width="11.5" stroke-linecap="round" />
+                  <path d="M 315 382 C 315 472, 240 508, 160 482 C 115 466, 88 436, 88 418" stroke="#EDE7FB" stroke-width="11.5" stroke-linecap="round" />
+                  <path d="M 65 418 C 65 428, 63 438, 63 448" stroke="#EDE7FB" stroke-width="11.5" stroke-linecap="round" />
+
+                <!-- Solid Shelf Shadow beneath Monitor 3 -->
+                <rect x="205" y="383" width="235" height="11" rx="4" fill="#5236AB" opacity="0.95" />
+
+                <!-- Winding Botanical Vines (Emerald/Green Tendrils) -->
+                <!-- Vine on Pipe 1 -->
+                <path d="M 152 153 Q 170 170 158 186 T 184 212 T 218 228 T 248 245" stroke="#10B981" stroke-width="2.6" stroke-linecap="round" fill="none" />
+                <path d="M 164 172 C 168 165, 176 163, 179 169 C 177 176, 170 177, 164 172 Z" fill="#10B981" stroke="#047857" stroke-width="1" />
+                <path d="M 174 196 C 171 189, 164 188, 162 194 C 165 200, 171 201, 174 196 Z" fill="#10B981" stroke="#047857" stroke-width="1" />
+                <path d="M 205 218 C 210 211, 218 210, 221 215 C 219 222, 212 223, 205 218 Z" fill="#10B981" stroke="#047857" stroke-width="1" />
+
+                <!-- Vine on Pipe 2 -->
+                <path d="M 318 202 Q 306 215 316 226 T 304 245" stroke="#10B981" stroke-width="2.6" stroke-linecap="round" fill="none" />
+                <path d="M 314 216 C 320 210, 326 212, 327 218 C 324 223, 318 223, 314 216 Z" fill="#10B981" stroke="#047857" stroke-width="1" />
+                <path d="M 307 232 C 301 227, 296 230, 296 236 C 300 240, 306 239, 307 232 Z" fill="#10B981" stroke="#047857" stroke-width="1" />
+
+                <!-- Vine on Pipe 4 (Deep sweeping U-curve) -->
+                <path d="M 315 385 Q 325 410 305 435 T 255 470 T 195 488 T 135 475 T 90 435 T 88 420" stroke="#10B981" stroke-width="2.6" stroke-linecap="round" fill="none" />
+                <!-- Leaves along U-curve -->
+                <path d="M 318 415 C 325 410, 331 413, 331 420 C 327 425, 321 424, 318 415 Z" fill="#10B981" stroke="#047857" stroke-width="1" />
+                <path d="M 275 460 C 278 452, 286 450, 289 456 C 287 463, 280 464, 275 460 Z" fill="#10B981" stroke="#047857" stroke-width="1" />
+                <path d="M 215 482 C 218 474, 226 473, 228 479 C 226 486, 219 487, 215 482 Z" fill="#10B981" stroke="#047857" stroke-width="1" />
+                <path d="M 155 482 C 151 475, 144 476, 142 482 C 145 488, 152 488, 155 482 Z" fill="#10B981" stroke="#047857" stroke-width="1" />
+                <path d="M 105 450 C 98 446, 95 452, 97 457 C 103 460, 108 456, 105 450 Z" fill="#10B981" stroke="#047857" stroke-width="1" />
+
+                <!-- Vine on Pipe 3 & 5 -->
+                <path d="M 68 245 Q 60 270 74 285 T 86 318" stroke="#10B981" stroke-width="2.6" stroke-linecap="round" fill="none" />
+                <path d="M 66 270 C 60 266, 56 272, 58 277 C 64 280, 68 276, 66 270 Z" fill="#10B981" stroke="#047857" stroke-width="1" />
+                <path d="M 64 422 Q 52 438 46 452" stroke="#10B981" stroke-width="2.6" stroke-linecap="round" fill="none" />
+                <path d="M 56 438 C 50 434, 46 440, 48 445 C 54 448, 58 444, 56 438 Z" fill="#10B981" stroke="#047857" stroke-width="1" />
+
+                <!-- Monitor Sockets & Star Antenna -->
+                <g class="chandelier-sockets">
+                  <!-- 8-Point Star Antenna atop Monitor 4 -->
+                  <line x1="68" y1="95" x2="68" y2="76" stroke="#5236AB" stroke-width="2.4" stroke-linecap="round" />
+                  <path d="M 68 68 L 70 73 L 75 75 L 70 77 L 68 82 L 66 77 L 61 75 L 66 73 Z" fill="#FAF7FE" stroke="#5236AB" stroke-width="1.8" />
+                  <!-- Socket under Monitor 1 -->
+                  <rect x="145" y="146" width="20" height="9" rx="3" fill="#E8DFF5" stroke="#5236AB" stroke-width="2" />
+                  <!-- Socket above Monitor 3 -->
+                  <rect x="295" y="241" width="20" height="9" rx="3" fill="#E8DFF5" stroke="#5236AB" stroke-width="2" />
+                  <!-- Socket under Monitor 3 -->
+                  <rect x="305" y="380" width="20" height="9" rx="3" fill="#E8DFF5" stroke="#5236AB" stroke-width="2" />
+                </g>
+              </svg>
+
+              <!-- HTML Interactive CRT Monitors (Pure Botanical Floral Art Screens) -->
+              <div class="hero-crt-cluster">
+                <!-- Monitor 1: Top Center (5-Petal Multi-Color Flower) -->
+                <div class="crt-monitor hero-crt-1" role="button" tabindex="0" title="Botanical Floral Spirograph (Click to rotate into an infinite vortex)" aria-label="Interactive Floral Spirograph Monitor 1">
+                  <div class="crt-top-mount"></div>
+                  <div class="crt-screen-bezel">
+                    <canvas class="crt-screen-canvas"></canvas>
+                  </div>
+                  <div class="crt-bot-mount"></div>
+                </div>
+
+                <!-- Monitor 2: Top Right (4-Lobe Clover Bloom) -->
+                <div class="crt-monitor hero-crt-2" role="button" tabindex="0" title="Botanical Clover Spirograph (Click to rotate into an infinite vortex)" aria-label="Interactive Clover Spirograph Monitor 2">
+                  <div class="crt-top-mount"></div>
+                  <div class="crt-screen-bezel">
+                    <canvas class="crt-screen-canvas"></canvas>
+                  </div>
+                  <div class="crt-bot-mount"></div>
+                </div>
+
+                <!-- Monitor 3: Middle Right (8-Lobe Grand Lotus Wave) -->
+                <div class="crt-monitor hero-crt-3" role="button" tabindex="0" title="Botanical Lotus Spirograph (Click to rotate into an infinite vortex)" aria-label="Interactive Lotus Spirograph Monitor 3">
+                  <div class="crt-top-mount"></div>
+                  <div class="crt-screen-bezel">
+                    <canvas class="crt-screen-canvas"></canvas>
+                  </div>
+                  <div class="crt-bot-mount"></div>
+                </div>
+
+                <!-- Monitor 4: Middle Left (16-Point Starburst Mandala) -->
+                <div class="crt-monitor hero-crt-4" role="button" tabindex="0" title="Botanical Star Mandala (Click to rotate into an infinite vortex)" aria-label="Interactive Star Mandala Monitor 4">
+                  <div class="crt-top-mount"></div>
+                  <div class="crt-screen-bezel">
+                    <canvas class="crt-screen-canvas"></canvas>
+                  </div>
+                  <div class="crt-bot-mount"></div>
+                </div>
+
+                <!-- Monitor 5: Lower Left (12-Lobe Wave Ripple) -->
+                <div class="crt-monitor hero-crt-5" role="button" tabindex="0" title="Botanical Ripple Spirograph (Click to rotate into an infinite vortex)" aria-label="Interactive Ripple Spirograph Monitor 5">
+                  <div class="crt-top-mount"></div>
+                  <div class="crt-screen-bezel">
+                    <canvas class="crt-screen-canvas"></canvas>
+                  </div>
+                  <div class="crt-bot-mount"></div>
+                </div>
+
+                <!-- Monitor 6: Bottom Left (10-Point Star Rosette) -->
+                <div class="crt-monitor hero-crt-6" role="button" tabindex="0" title="Botanical Star Rosette (Click to rotate into an infinite vortex)" aria-label="Interactive Star Rosette Monitor 6">
+                  <div class="crt-top-mount"></div>
+                  <div class="crt-screen-bezel">
+                    <canvas class="crt-screen-canvas"></canvas>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+
+      <!-- Credential Logo Marquee with Authentic Tech & University Symbols -->
+        <div class="logo-marquee-wrap" aria-label="Organization Credentials">
+          <div class="logo-marquee-track">
+            <!-- 1. University of Sydney -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M12 2C6.5 2 4 4.5 4 8v5.5c0 5.2 4.2 8.5 8 9.5c3.8-1 8-4.3 8-9.5V8c0-3.5-2.5-6-8-6z" fill="#E65100"/>
+                <path d="M12 3.5C7.2 3.5 5.5 5.5 5.5 8.5V13c0 4.2 3.4 7 6.5 7.8c3.1-.8 6.5-3.6 6.5-7.8V8.5c0-3-1.7-5-6.5-5z" fill="#D32F2F"/>
+                <path d="M7 9h10M12 6v12" stroke="#FFD54F" stroke-width="1.8" stroke-linecap="round"/>
+                <circle cx="12" cy="7.5" r="1.5" fill="#FFF"/>
+                <circle cx="9" cy="11.5" r="1.2" fill="#FFF"/>
+                <circle cx="15" cy="11.5" r="1.2" fill="#FFF"/>
+                <circle cx="12" cy="15.5" r="1.2" fill="#FFF"/>
+              </svg>
+              <span>UNIVERSITY OF SYDNEY</span>
+            </span>
+
+            <!-- 2. Google Cloud (GCP) -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4c-2.95 0-5.5 1.7-6.72 4.19C2.33 8.65 0 11.23 0 14.39 0 17.71 2.69 20.4 6 20.4h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z" fill="#4285F4"/>
+                <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4c-.95 0-1.85.2-2.68.56l5.72 5.72h4.31z" fill="#EA4335"/>
+                <path d="M9.32 4.56C6.54 5.77 4.5 8.44 4.09 11.63l5.23 5.23 5.72-5.72-5.72-5.72v-.86z" fill="#FBBC05"/>
+                <path d="M19 14.4h-3.96l-5.72 5.72H19c2.76 0 5-2.24 5-5 0-.25-.02-.5-.06-.74-.8 2.3-2.66 4.02-4.94 4.02z" fill="#34A853"/>
+              </svg>
+              <span>GOOGLE CLOUD</span>
+            </span>
+
+            <!-- 3. AWS -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#232F3E"/>
+                <path d="M6.5 11l1.6-4.6h1.5l1.6 4.6H10l-.3-1H7.9l-.3 1H6.5zm1.7-1.9h1.3L8.9 7.4h-.1l-.6 1.7zm3.6 1.9l1.4-4.6h1.2l.9 3.2.9-3.2h1.2l1.4 4.6H16l-.8-3.1-.9 3.1h-.9l-.9-3.1-.8 3.1h-1.3zm8.2-.1c-.4.1-.8.2-1.2.2-.8 0-1.3-.4-1.3-1.1 0-.8.6-1.1 1.4-1.3l.9-.2v-.3c0-.4-.3-.6-.8-.6-.4 0-.8.1-1.1.3l-.3-.7c.4-.2.9-.4 1.5-.4 1.1 0 1.7.5 1.7 1.4v2.7h-1l.2-.7zm-.2-1.6l-.7.2c-.4.1-.7.2-.7.6 0 .3.2.5.6.5.3 0 .6-.1.8-.3v-1z" fill="#FFF"/>
+                <path d="M5.5 14.8c4.2 2.2 9.5 2.2 13 0" stroke="#FF9900" stroke-width="1.6" stroke-linecap="round"/>
+                <path d="M19.2 13.6l-.7 1.8-1.7-.5" stroke="#FF9900" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>AWS</span>
+            </span>
+
+            <!-- 4. Python -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M11.9 2c-5.2 0-4.9 2.3-4.9 2.3l.1 2.4h5v.7H4.7S2 7.1 2 12.3s2.4 5 2.4 5l1.4-.1v-2.1s-.1-2.4 2.4-2.4h5.2s2.3.1 2.3-2.3V4.4S16.1 2 11.9 2zm-1.4 1.5c.5 0 .9.4.9.9s-.4.9-.9.9-.9-.4-.9-.9.4-.9.9-.9z" fill="#3776AB"/>
+                <path d="M12.1 22c5.2 0 4.9-2.3 4.9-2.3l-.1-2.4h-5v-.7h7.4s2.7.3 2.7-4.9-2.4-5-2.4-5l-1.4.1v2.1s.1 2.4-2.4 2.4h-5.2s-2.3-.1-2.3 2.3v5.5S7.9 22 12.1 22zm1.4-1.5c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9z" fill="#FFD43B"/>
+              </svg>
+              <span>PYTHON</span>
+            </span>
+
+            <!-- 5. Claude -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#FBF0EA"/>
+                <path d="M13.8 4.2l-1.4 5.2 3.8-3.7 1.8 1.8-3.7 3.8 5.2-1.4v2.5l-5.2-1.4 3.7 3.8-1.8 1.8-3.8-3.7 1.4 5.2h-2.5l1.4-5.2-3.8 3.7-1.8-1.8 3.7-3.8-5.2 1.4v-2.5l5.2 1.4-3.7-3.8 1.8-1.8 3.8 3.7-1.4-5.2h2.5z" fill="#CC5500"/>
+              </svg>
+              <span>CLAUDE</span>
+            </span>
+
+            <!-- 6. NestJS -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M2.5 17.5l5.8-13.2c.2-.5.8-.8 1.4-.6.3.1.5.3.6.6l3.2 7.3 3.6-7.3c.3-.5.9-.7 1.4-.5.3.1.5.4.6.7l2.8 13.5c.1.7-.3 1.4-1 1.5-.7.1-1.4-.3-1.5-1l-2.1-10.2-3.4 6.8c-.3.5-.8.8-1.4.8s-1.1-.3-1.4-.8L8.6 8.5 4.3 18.2c-.3.7-1 1-1.7.7-.7-.3-1-1-.7-1.7l.6.3z" fill="#E0234E"/>
+              </svg>
+              <span>NESTJS</span>
+            </span>
+
+            <!-- 7. TypeScript -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#3178C6"/>
+                <path d="M12.5 10.2h-3v8.5H7.7v-8.5H4.8V8.8h7.7v1.4zm6.8 2.2c-.3-.2-.8-.4-1.4-.6-.6-.2-1-.3-1.3-.5-.4-.2-.5-.4-.5-.7 0-.3.1-.5.4-.7.3-.2.7-.3 1.2-.3.7 0 1.4.2 2 .6l.6-1.2c-.7-.4-1.6-.7-2.6-.7-1 0-1.8.3-2.4.8-.6.5-.9 1.2-.9 2 0 .7.3 1.3.8 1.7.5.4 1.2.7 2.1 1 .6.2 1.1.4 1.3.6.2.2.4.5.4.8 0 .4-.2.7-.5.9-.3.2-.8.3-1.4.3-.8 0-1.7-.3-2.4-.8l-.6 1.3c.9.6 1.9.9 3 .9 1.1 0 2-.3 2.6-.9.6-.6.9-1.3.9-2.2 0-.8-.3-1.4-.8-1.8z" fill="#FFF"/>
+              </svg>
+              <span>TYPESCRIPT</span>
+            </span>
+
+            <!-- 8. Block Majority -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#1E0A3C"/>
+                <path d="M6 7h12v3H6zM6 14h12v3H6z" fill="#8B5CF6"/>
+                <circle cx="9" cy="8.5" r="1.5" fill="#38BDF8"/>
+                <circle cx="15" cy="15.5" r="1.5" fill="#10B981"/>
+                <path d="M9 10v4M15 10v4" stroke="#FDE047" stroke-width="1.5" stroke-dasharray="1 1"/>
+              </svg>
+              <span>BLOCK MAJORITY</span>
+            </span>
+
+            <!-- 9. Devin API -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#18181B"/>
+                <path d="M6 6h12v4H6zM6 14h8v4H6z" fill="#22C55E"/>
+                <circle cx="17" cy="16" r="2" fill="#EAB308"/>
+              </svg>
+              <span>DEVIN API</span>
+            </span>
+
+            <!-- 10. Zebo.AI -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#0F172A"/>
+                <circle cx="6" cy="6" r="2.5" fill="#38BDF8"/>
+                <circle cx="18" cy="6" r="2.5" fill="#38BDF8"/>
+                <circle cx="12" cy="12" r="2.5" fill="#EC4899"/>
+                <circle cx="6" cy="18" r="2.5" fill="#34D399"/>
+                <circle cx="18" cy="18" r="2.5" fill="#34D399"/>
+                <path d="M8 7.5l2.5 3M16 7.5l-2.5 3M8 16.5l2.5-3M16 16.5l-2.5-3" stroke="#94A3B8" stroke-width="1.2"/>
+              </svg>
+              <span>ZEBO.AI</span>
+            </span>
+
+            <!-- 11. IEEE Xplore -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#00629B"/>
+                <path d="M12 4L4 12l8 8 8-8-8-8zm0 3.2L16.8 12 12 16.8 7.2 12 12 7.2z" fill="#FFF"/>
+                <circle cx="12" cy="12" r="2" fill="#FFD54F"/>
+              </svg>
+              <span>IEEE XPLORE</span>
+            </span>
+
+            <!-- 12. Jain University -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#0D2E5C"/>
+                <path d="M12 5l1.8 3.6 4 .6-2.9 2.8.7 4-3.6-1.9-3.6 1.9.7-4-2.9-2.8 4-.6L12 5z" fill="#F59E0B"/>
+                <path d="M6 18c3-1 9-1 12 0" stroke="#93C5FD" stroke-width="1.4" stroke-linecap="round"/>
+              </svg>
+              <span>JAIN UNIVERSITY</span>
+            </span>
+
+            <!-- 13. Verzeo -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#0284C7"/>
+                <path d="M5.5 6.5l6.5 11 6.5-11h-3.2l-3.3 5.8-3.3-5.8H5.5z" fill="#FFF"/>
+              </svg>
+              <span>VERZEO</span>
+            </span>
+
+            <!-- ========================================================
+                 SEAMLESS DUPLICATE LOOP FOR INFINITE MARQUEE
+                 ======================================================== -->
+            <!-- 1. University of Sydney -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M12 2C6.5 2 4 4.5 4 8v5.5c0 5.2 4.2 8.5 8 9.5c3.8-1 8-4.3 8-9.5V8c0-3.5-2.5-6-8-6z" fill="#E65100"/>
+                <path d="M12 3.5C7.2 3.5 5.5 5.5 5.5 8.5V13c0 4.2 3.4 7 6.5 7.8c3.1-.8 6.5-3.6 6.5-7.8V8.5c0-3-1.7-5-6.5-5z" fill="#D32F2F"/>
+                <path d="M7 9h10M12 6v12" stroke="#FFD54F" stroke-width="1.8" stroke-linecap="round"/>
+                <circle cx="12" cy="7.5" r="1.5" fill="#FFF"/>
+                <circle cx="9" cy="11.5" r="1.2" fill="#FFF"/>
+                <circle cx="15" cy="11.5" r="1.2" fill="#FFF"/>
+                <circle cx="12" cy="15.5" r="1.2" fill="#FFF"/>
+              </svg>
+              <span>UNIVERSITY OF SYDNEY</span>
+            </span>
+
+            <!-- 2. Google Cloud (GCP) -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4c-2.95 0-5.5 1.7-6.72 4.19C2.33 8.65 0 11.23 0 14.39 0 17.71 2.69 20.4 6 20.4h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z" fill="#4285F4"/>
+                <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4c-.95 0-1.85.2-2.68.56l5.72 5.72h4.31z" fill="#EA4335"/>
+                <path d="M9.32 4.56C6.54 5.77 4.5 8.44 4.09 11.63l5.23 5.23 5.72-5.72-5.72-5.72v-.86z" fill="#FBBC05"/>
+                <path d="M19 14.4h-3.96l-5.72 5.72H19c2.76 0 5-2.24 5-5 0-.25-.02-.5-.06-.74-.8 2.3-2.66 4.02-4.94 4.02z" fill="#34A853"/>
+              </svg>
+              <span>GOOGLE CLOUD</span>
+            </span>
+
+            <!-- 3. AWS -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#232F3E"/>
+                <path d="M6.5 11l1.6-4.6h1.5l1.6 4.6H10l-.3-1H7.9l-.3 1H6.5zm1.7-1.9h1.3L8.9 7.4h-.1l-.6 1.7zm3.6 1.9l1.4-4.6h1.2l.9 3.2.9-3.2h1.2l1.4 4.6H16l-.8-3.1-.9 3.1h-.9l-.9-3.1-.8 3.1h-1.3zm8.2-.1c-.4.1-.8.2-1.2.2-.8 0-1.3-.4-1.3-1.1 0-.8.6-1.1 1.4-1.3l.9-.2v-.3c0-.4-.3-.6-.8-.6-.4 0-.8.1-1.1.3l-.3-.7c.4-.2.9-.4 1.5-.4 1.1 0 1.7.5 1.7 1.4v2.7h-1l.2-.7zm-.2-1.6l-.7.2c-.4.1-.7.2-.7.6 0 .3.2.5.6.5.3 0 .6-.1.8-.3v-1z" fill="#FFF"/>
+                <path d="M5.5 14.8c4.2 2.2 9.5 2.2 13 0" stroke="#FF9900" stroke-width="1.6" stroke-linecap="round"/>
+                <path d="M19.2 13.6l-.7 1.8-1.7-.5" stroke="#FF9900" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>AWS</span>
+            </span>
+
+            <!-- 4. Python -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M11.9 2c-5.2 0-4.9 2.3-4.9 2.3l.1 2.4h5v.7H4.7S2 7.1 2 12.3s2.4 5 2.4 5l1.4-.1v-2.1s-.1-2.4 2.4-2.4h5.2s2.3.1 2.3-2.3V4.4S16.1 2 11.9 2zm-1.4 1.5c.5 0 .9.4.9.9s-.4.9-.9.9-.9-.4-.9-.9.4-.9.9-.9z" fill="#3776AB"/>
+                <path d="M12.1 22c5.2 0 4.9-2.3 4.9-2.3l-.1-2.4h-5v-.7h7.4s2.7.3 2.7-4.9-2.4-5-2.4-5l-1.4.1v2.1s.1 2.4-2.4 2.4h-5.2s-2.3-.1-2.3 2.3v5.5S7.9 22 12.1 22zm1.4-1.5c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9z" fill="#FFD43B"/>
+              </svg>
+              <span>PYTHON</span>
+            </span>
+
+            <!-- 5. Claude -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#FBF0EA"/>
+                <path d="M13.8 4.2l-1.4 5.2 3.8-3.7 1.8 1.8-3.7 3.8 5.2-1.4v2.5l-5.2-1.4 3.7 3.8-1.8 1.8-3.8-3.7 1.4 5.2h-2.5l1.4-5.2-3.8 3.7-1.8-1.8 3.7-3.8-5.2 1.4v-2.5l5.2 1.4-3.7-3.8 1.8-1.8 3.8 3.7-1.4-5.2h2.5z" fill="#CC5500"/>
+              </svg>
+              <span>CLAUDE</span>
+            </span>
+
+            <!-- 6. NestJS -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M2.5 17.5l5.8-13.2c.2-.5.8-.8 1.4-.6.3.1.5.3.6.6l3.2 7.3 3.6-7.3c.3-.5.9-.7 1.4-.5.3.1.5.4.6.7l2.8 13.5c.1.7-.3 1.4-1 1.5-.7.1-1.4-.3-1.5-1l-2.1-10.2-3.4 6.8c-.3.5-.8.8-1.4.8s-1.1-.3-1.4-.8L8.6 8.5 4.3 18.2c-.3.7-1 1-1.7.7-.7-.3-1-1-.7-1.7l.6.3z" fill="#E0234E"/>
+              </svg>
+              <span>NESTJS</span>
+            </span>
+
+            <!-- 7. TypeScript -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#3178C6"/>
+                <path d="M12.5 10.2h-3v8.5H7.7v-8.5H4.8V8.8h7.7v1.4zm6.8 2.2c-.3-.2-.8-.4-1.4-.6-.6-.2-1-.3-1.3-.5-.4-.2-.5-.4-.5-.7 0-.3.1-.5.4-.7.3-.2.7-.3 1.2-.3.7 0 1.4.2 2 .6l.6-1.2c-.7-.4-1.6-.7-2.6-.7-1 0-1.8.3-2.4.8-.6.5-.9 1.2-.9 2 0 .7.3 1.3.8 1.7.5.4 1.2.7 2.1 1 .6.2 1.1.4 1.3.6.2.2.4.5.4.8 0 .4-.2.7-.5.9-.3.2-.8.3-1.4.3-.8 0-1.7-.3-2.4-.8l-.6 1.3c.9.6 1.9.9 3 .9 1.1 0 2-.3 2.6-.9.6-.6.9-1.3.9-2.2 0-.8-.3-1.4-.8-1.8z" fill="#FFF"/>
+              </svg>
+              <span>TYPESCRIPT</span>
+            </span>
+
+            <!-- 8. Block Majority -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#1E0A3C"/>
+                <path d="M6 7h12v3H6zM6 14h12v3H6z" fill="#8B5CF6"/>
+                <circle cx="9" cy="8.5" r="1.5" fill="#38BDF8"/>
+                <circle cx="15" cy="15.5" r="1.5" fill="#10B981"/>
+                <path d="M9 10v4M15 10v4" stroke="#FDE047" stroke-width="1.5" stroke-dasharray="1 1"/>
+              </svg>
+              <span>BLOCK MAJORITY</span>
+            </span>
+
+            <!-- 9. Devin API -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#18181B"/>
+                <path d="M6 6h12v4H6zM6 14h8v4H6z" fill="#22C55E"/>
+                <circle cx="17" cy="16" r="2" fill="#EAB308"/>
+              </svg>
+              <span>DEVIN API</span>
+            </span>
+
+            <!-- 10. Zebo.AI -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#0F172A"/>
+                <circle cx="6" cy="6" r="2.5" fill="#38BDF8"/>
+                <circle cx="18" cy="6" r="2.5" fill="#38BDF8"/>
+                <circle cx="12" cy="12" r="2.5" fill="#EC4899"/>
+                <circle cx="6" cy="18" r="2.5" fill="#34D399"/>
+                <circle cx="18" cy="18" r="2.5" fill="#34D399"/>
+                <path d="M8 7.5l2.5 3M16 7.5l-2.5 3M8 16.5l2.5-3M16 16.5l-2.5-3" stroke="#94A3B8" stroke-width="1.2"/>
+              </svg>
+              <span>ZEBO.AI</span>
+            </span>
+
+            <!-- 11. IEEE Xplore -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#00629B"/>
+                <path d="M12 4L4 12l8 8 8-8-8-8zm0 3.2L16.8 12 12 16.8 7.2 12 12 7.2z" fill="#FFF"/>
+                <circle cx="12" cy="12" r="2" fill="#FFD54F"/>
+              </svg>
+              <span>IEEE XPLORE</span>
+            </span>
+
+            <!-- 12. Jain University -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#0D2E5C"/>
+                <path d="M12 5l1.8 3.6 4 .6-2.9 2.8.7 4-3.6-1.9-3.6 1.9.7-4-2.9-2.8 4-.6L12 5z" fill="#F59E0B"/>
+                <path d="M6 18c3-1 9-1 12 0" stroke="#93C5FD" stroke-width="1.4" stroke-linecap="round"/>
+              </svg>
+              <span>JAIN UNIVERSITY</span>
+            </span>
+
+            <!-- 13. Verzeo -->
+            <span class="marquee-item">
+              <svg class="marquee-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#0284C7"/>
+                <path d="M5.5 6.5l6.5 11 6.5-11h-3.2l-3.3 5.8-3.3-5.8H5.5z" fill="#FFF"/>
+              </svg>
+              <span>VERZEO</span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Giant 100x Floral Cutout Centerpiece (Screenshot 1) -->
+        <div class="cutout-showcase-container">
+          <!-- Giant Typographic Cutout Centerpiece -->
+          <div class="giant-number-cutout">
+            <span class="floral-text-clip">100× DEV</span>
+          </div>
+
+          <!-- Meadow Island Platform on which the Scrubber Box is placed -->
+          <div class="land-island-wrapper">
+            <!-- 3 Flag Banners Stuck inside the Land Island Turf -->
+            <div class="island-flags-cluster">
+              <div class="ribbon-flag-unit ribbon-flag-green flag-island-left">
+                <div class="ribbon-stick"></div>
+                <div class="ribbon-banner">
+                  <span class="ribbon-icon">✦</span> AGENTIC
+                </div>
+              </div>
+              <div class="ribbon-flag-unit ribbon-flag-orange flag-island-top">
+                <div class="ribbon-stick"></div>
+                <div class="ribbon-banner">
+                  <span class="ribbon-icon">✦</span> CLOUD
+                </div>
+              </div>
+              <div class="ribbon-flag-unit ribbon-flag-purple flag-island-right">
+                <div class="ribbon-stick"></div>
+                <div class="ribbon-banner">
+                  <span class="ribbon-icon">✦</span> BACKEND
+                </div>
+              </div>
+            </div>
+
+            <!-- The Clean Rolling Grassy Land Island Base SVG Stretching to Page Edges -->
+            <div class="land-island-svg-bg" aria-hidden="true">
+              <svg viewBox="0 0 1600 520" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="islandBackGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#DDD6FE" />
+                    <stop offset="25%" stop-color="#A7F3D0" />
+                    <stop offset="50%" stop-color="#BAE6FD" />
+                    <stop offset="75%" stop-color="#A7F3D0" />
+                    <stop offset="100%" stop-color="#DDD6FE" />
+                  </linearGradient>
+                  <linearGradient id="islandFrontGrad" x1="0%" y1="0%" x2="100%" y2="80%">
+                    <stop offset="0%" stop-color="#34D399" />
+                    <stop offset="20%" stop-color="#10B981" />
+                    <stop offset="50%" stop-color="#059669" />
+                    <stop offset="80%" stop-color="#10B981" />
+                    <stop offset="100%" stop-color="#34D399" />
+                  </linearGradient>
+                </defs>
+
+                <!-- Back Layer Soft Pastel Ridge Tapering to Page Edges -->
+                <path d="M0,320 C80,240 180,140 320,105 C540,105 680,20 800,25 C920,30 1060,105 1280,105 C1420,140 1520,240 1600,320 L1600,480 C1460,505 1180,515 800,515 C420,515 140,505 0,480 Z" fill="url(#islandBackGrad)" opacity="0.85" />
+
+                <!-- Main Island Green Mound with Expansive Tapered Flanks -->
+                <path d="M0,360 C70,260 170,165 320,125 C520,155 660,45 800,40 C940,35 1080,125 1280,125 C1430,165 1530,260 1600,360 C1540,460 1340,495 800,495 C260,495 60,460 0,360 Z" fill="url(#islandFrontGrad)" />
+                <!-- Highlight Crest Line Across Full Landscape -->
+                <path d="M0,360 C70,260 170,165 320,125 C520,155 660,45 800,40 C940,35 1080,125 1280,125 C1430,165 1530,260 1600,360" stroke="rgba(255,255,255,0.8)" stroke-width="3" stroke-linecap="round" fill="none" />
+              </svg>
+            </div>
+
+            <!-- =========================================================
+                 LEFT MEADOW FLANK (26 BOTANICAL FLOWERS STRICTLY ON GREEN HILL)
+                 Dense, gap-free botanical garden firmly rooted inside green turf
+                 ========================================================= -->
+            <div class="meadow-flank meadow-flank-left" aria-label="Left Meadow Flowers">
+              <!-- 1. Hero Golden Sunflower (Upper hill crest above AGENTIC flag) -->
+              <div class="interactive-land-flower flower-left-sunflower" role="button" tabindex="0" aria-label="Golden Sunflower"
+                   style="--sway-deg: 3deg; --glow-color: rgba(251, 191, 36, 0.75); right: 135px; top: 32%;">
+                <svg width="52" height="68" viewBox="0 0 64 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M32 80 C32 60 28 42 32 30" stroke="#047857" stroke-width="3.5" stroke-linecap="round" />
+                  <path d="M30 54 C20 52 14 44 12 36 C18 36 26 44 30 50" fill="#10B981" stroke="#047857" stroke-width="1.6" />
+                  <path d="M31 46 C41 44 48 38 52 30 C46 32 38 38 31 43" fill="#10B981" stroke="#047857" stroke-width="1.6" />
+                  <g class="flower-head" transform="translate(32, 28)">
+                    <circle cx="0" cy="-18" r="7" fill="#FBBF24" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="9" cy="-15" r="7" fill="#FBBF24" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="16" cy="-9" r="7" fill="#FBBF24" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="18" cy="0" r="7" fill="#FBBF24" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="16" cy="9" r="7" fill="#FBBF24" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="9" cy="15" r="7" fill="#FBBF24" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="0" cy="18" r="7" fill="#FBBF24" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="-9" cy="15" r="7" fill="#FBBF24" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="-16" cy="9" r="7" fill="#FBBF24" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="-18" cy="0" r="7" fill="#FBBF24" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="-16" cy="-9" r="7" fill="#FBBF24" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="-9" cy="-15" r="7" fill="#FBBF24" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="11" fill="#78350F" stroke="#B45309" stroke-width="1.8" />
+                    <circle cx="0" cy="0" r="6" fill="#451A03" />
+                    <circle cx="0" cy="0" r="8" stroke="#FDE68A" stroke-width="1.2" stroke-dasharray="2 3" fill="none" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 2. Golden Sun Star (Upper corner beside card margin) -->
+              <div class="interactive-land-flower flower-left-sunstar" role="button" tabindex="0" aria-label="Sun Star"
+                   style="--sway-deg: -3.2deg; --glow-color: rgba(250, 204, 21, 0.75); right: 80px; top: 35%;">
+                <svg width="44" height="60" viewBox="0 0 48 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 64 C24 46 20 34 24 22" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(24, 20)">
+                    <path d="M0 -18 L4 -6 L16 -10 L9 0 L18 6 L6 7 L10 18 L0 9 L-10 18 L-6 7 L-18 6 L-9 0 L-16 -10 L-4 -6 Z" fill="#F59E0B" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="6.5" fill="#FEF08A" stroke="#78350F" stroke-width="1.4" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 3. Crimson Sweet William (Card margin gap above flag) -->
+              <div class="interactive-land-flower flower-left-sweetwilliam flower-fill-dense" role="button" tabindex="0" aria-label="Crimson Sweet William"
+                   style="--sway-deg: -3deg; --glow-color: rgba(225, 29, 72, 0.8); right: 35px; top: 38%;">
+                <svg width="40" height="54" viewBox="0 0 44 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 58 C22 44 24 32 22 20" stroke="#047857" stroke-width="2.6" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(22, 20)">
+                    <circle cx="0" cy="-7" r="6.5" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="7" cy="0" r="6.5" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="0" cy="7" r="6.5" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="-7" cy="0" r="6.5" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="4" fill="#FFFFFF" stroke="#BE123C" stroke-width="1.2" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 4. Lavender Star Aster (Upper ridge inside green slope) -->
+              <div class="interactive-land-flower flower-left-aster-high" role="button" tabindex="0" aria-label="Lavender Aster"
+                   style="--sway-deg: 3.5deg; --glow-color: rgba(167, 139, 250, 0.75); right: 185px; top: 38%;">
+                <svg width="44" height="60" viewBox="0 0 54 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M27 70 C27 52 24 38 27 26" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <path d="M28 48 C36 44 42 36 44 28 C38 30 32 38 28 44" fill="#34D399" stroke="#047857" stroke-width="1.5" />
+                  <g class="flower-head" transform="translate(27, 24)">
+                    <path d="M0 -20 L3.5 -6 L16 -13 L8 -2 L20 3 L6 6 L13 18 L2 8 L-3 20 L-6 6 L-18 12 L-8 -2 L-20 -8 L-5 -6 Z"
+                          fill="#A78BFA" stroke="#4C1D95" stroke-width="1.8" />
+                    <circle cx="0" cy="0" r="6" fill="#FDE047" stroke="#78350F" stroke-width="1.5" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 5. Apricot Wild Rose (Mid-slope between sunflower & aster) -->
+              <div class="interactive-land-flower flower-left-apricot flower-fill-dense" role="button" tabindex="0" aria-label="Apricot Wild Rose"
+                   style="--sway-deg: 3.2deg; --glow-color: rgba(251, 146, 60, 0.8); right: 145px; top: 42%;">
+                <svg width="46" height="60" viewBox="0 0 50 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M25 66 C25 48 23 36 25 24" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <path d="M24 46 C16 42 12 34 10 26 C16 28 22 36 24 42" fill="#10B981" stroke="#047857" stroke-width="1.5" />
+                  <g class="flower-head" transform="translate(25, 24)">
+                    <circle cx="0" cy="-10" r="8" fill="#FB923C" stroke="#9A3412" stroke-width="1.6" />
+                    <circle cx="9" cy="-3" r="8" fill="#FB923C" stroke="#9A3412" stroke-width="1.6" />
+                    <circle cx="6" cy="8" r="8" fill="#FB923C" stroke="#9A3412" stroke-width="1.6" />
+                    <circle cx="-6" cy="8" r="8" fill="#FB923C" stroke="#9A3412" stroke-width="1.6" />
+                    <circle cx="-9" cy="-3" r="8" fill="#FB923C" stroke="#9A3412" stroke-width="1.6" />
+                    <circle cx="0" cy="0" r="6.5" fill="#FEF08A" stroke="#B45309" stroke-width="1.5" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 6. Coral Poppy Peeker (Card margin upper-mid) -->
+              <div class="interactive-land-flower flower-left-coral" role="button" tabindex="0" aria-label="Coral Poppy"
+                   style="--sway-deg: 3.2deg; --glow-color: rgba(251, 113, 133, 0.75); right: 55px; top: 46%;">
+                <svg width="40" height="56" viewBox="0 0 42 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 58 C21 44 19 32 21 22" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <path d="M20 42 C14 38 10 30 8 22 C14 26 18 34 20 38" fill="#10B981" stroke="#047857" stroke-width="1.4" />
+                  <g class="flower-head" transform="translate(21, 18)">
+                    <circle cx="-5" cy="0" r="8" fill="#FB7185" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="5" cy="0" r="8" fill="#FB7185" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="0" cy="-6" r="7" fill="#FDA4AF" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="0" cy="2" r="4" fill="#FDE047" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 7. Wild Violet Orchid (Mid-slope to the left of the flag) -->
+              <div class="interactive-land-flower flower-left-orchid" role="button" tabindex="0" aria-label="Violet Orchid"
+                   style="--sway-deg: -3deg; --glow-color: rgba(124, 58, 237, 0.75); right: 165px; top: 48%;">
+                <svg width="46" height="62" viewBox="0 0 48 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 64 C24 46 20 34 24 22" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(24, 18)">
+                    <path d="M-11 8 C-14 -6 0 -16 0 -16 C0 -16 14 -6 11 8 C6 14 -6 14 -11 8 Z" fill="#7C3AED" stroke="#4C1D95" stroke-width="1.6" />
+                    <circle cx="0" cy="3" r="4" fill="#FDE047" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 8. Pink Carnation Bloom (Mid slope beside card) -->
+              <div class="interactive-land-flower flower-left-carnation flower-fill-dense" role="button" tabindex="0" aria-label="Pink Carnation"
+                   style="--sway-deg: -3.1deg; --glow-color: rgba(244, 114, 182, 0.8); right: 85px; top: 50%;">
+                <svg width="44" height="60" viewBox="0 0 48 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 64 C24 48 22 36 24 24" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(24, 24)">
+                    <circle cx="-8" cy="-4" r="8" fill="#F472B6" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="8" cy="-4" r="8" fill="#F472B6" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="0" cy="6" r="8" fill="#F472B6" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="0" cy="-2" r="6" fill="#FDA4AF" stroke="#9F1239" stroke-width="1.4" />
+                    <circle cx="0" cy="0" r="3.5" fill="#FDE047" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 9. Coral Wild Orchid (Mid slope gap) -->
+              <div class="interactive-land-flower flower-left-cororchid flower-fill-dense" role="button" tabindex="0" aria-label="Coral Orchid"
+                   style="--sway-deg: -3.2deg; --glow-color: rgba(251, 113, 133, 0.8); right: 185px; top: 50%;">
+                <svg width="42" height="56" viewBox="0 0 46 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23 60 C23 44 21 34 23 22" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(23, 22)">
+                    <path d="M-11 2 C-13 -9 0 -16 0 -16 C0 -16 13 -9 11 2 C13 11 -13 11 -11 2 Z" fill="#FB7185" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="0" cy="-2" r="5" fill="#F43F5E" />
+                    <circle cx="0" cy="3" r="3.2" fill="#FEF08A" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 10. Bold Magenta Poppy (Mid-slope focal bloom) -->
+              <div class="interactive-land-flower flower-left-magenta" role="button" tabindex="0" aria-label="Magenta Poppy"
+                   style="--sway-deg: -3.6deg; --glow-color: rgba(236, 72, 153, 0.75); right: 115px; top: 52%;">
+                <svg width="48" height="64" viewBox="0 0 58 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M29 72 C29 54 24 38 29 26" stroke="#047857" stroke-width="3.2" stroke-linecap="round" />
+                  <path d="M27 50 C19 48 13 42 11 34 C17 34 23 42 27 47" fill="#34D399" stroke="#047857" stroke-width="1.5" />
+                  <g class="flower-head" transform="translate(29, 24)">
+                    <circle cx="0" cy="-11" r="11" fill="#FB7185" stroke="#9F1239" stroke-width="1.8" />
+                    <circle cx="11" cy="-3" r="11" fill="#EC4899" stroke="#9F1239" stroke-width="1.8" />
+                    <circle cx="7" cy="9" r="11" fill="#F43F5E" stroke="#9F1239" stroke-width="1.8" />
+                    <circle cx="-7" cy="9" r="11" fill="#F43F5E" stroke="#9F1239" stroke-width="1.8" />
+                    <circle cx="-11" cy="-3" r="11" fill="#EC4899" stroke="#9F1239" stroke-width="1.8" />
+                    <circle cx="0" cy="0" r="7.5" fill="#FACC15" stroke="#78350F" stroke-width="1.6" />
+                    <circle cx="0" cy="0" r="3.5" fill="#B45309" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 11. Scarlet Anemone (Card edge mid gap) -->
+              <div class="interactive-land-flower flower-left-anemone flower-fill-dense" role="button" tabindex="0" aria-label="Scarlet Anemone"
+                   style="--sway-deg: -2.8deg; --glow-color: rgba(225, 29, 72, 0.8); right: 35px; top: 52%;">
+                <svg width="42" height="56" viewBox="0 0 46 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23 60 C23 44 25 32 23 20" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(23, 20)">
+                    <circle cx="0" cy="-8" r="7" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="8" cy="-2" r="7" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="5" cy="7" r="7" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="-5" cy="7" r="7" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="-8" cy="-2" r="7" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="5.5" fill="#2E1065" stroke="#FEF08A" stroke-width="1.2" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 12. White Alpine Daisy (Center mid slope gap) -->
+              <div class="interactive-land-flower flower-left-alpinedaisy flower-fill-dense" role="button" tabindex="0" aria-label="White Alpine Daisy"
+                   style="--sway-deg: 3deg; --glow-color: rgba(254, 240, 138, 0.8); right: 145px; top: 56%;">
+                <svg width="44" height="58" viewBox="0 0 48 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 62 C24 46 26 34 24 22" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(24, 22)">
+                    <circle cx="0" cy="-11" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="7" cy="-9" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="11" cy="0" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="7" cy="9" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="0" cy="11" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="-7" cy="9" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="-11" cy="0" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="-7" cy="-9" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="0" cy="0" r="6.5" fill="#FACC15" stroke="#78350F" stroke-width="1.4" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 13. Blushing Peony (Card margin mid-lower) -->
+              <div class="interactive-land-flower flower-left-peony" role="button" tabindex="0" aria-label="Blushing Peony"
+                   style="--sway-deg: 3deg; --glow-color: rgba(244, 114, 182, 0.75); right: 65px; top: 58%;">
+                <svg width="40" height="56" viewBox="0 0 42 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 58 C21 44 23 32 21 22" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(21, 18)">
+                    <circle cx="5" cy="0" r="8" fill="#F472B6" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="-5" cy="0" r="8" fill="#F472B6" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="0" cy="-6" r="7" fill="#FBCFE8" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="0" cy="2" r="4" fill="#FACC15" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 14. Lavender Windflower (Mid slope outer gap) -->
+              <div class="interactive-land-flower flower-left-lavwind flower-fill-dense" role="button" tabindex="0" aria-label="Lavender Windflower"
+                   style="--sway-deg: -3deg; --glow-color: rgba(192, 132, 252, 0.8); right: 185px; top: 60%;">
+                <svg width="42" height="56" viewBox="0 0 46 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23 60 C23 44 25 34 23 22" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(23, 22)">
+                    <circle cx="0" cy="-8" r="6.5" fill="#C084FC" stroke="#581C87" stroke-width="1.5" />
+                    <circle cx="7" cy="-3" r="6.5" fill="#C084FC" stroke="#581C87" stroke-width="1.5" />
+                    <circle cx="5" cy="6" r="6.5" fill="#C084FC" stroke="#581C87" stroke-width="1.5" />
+                    <circle cx="-5" cy="6" r="6.5" fill="#C084FC" stroke="#581C87" stroke-width="1.5" />
+                    <circle cx="-7" cy="-3" r="6.5" fill="#C084FC" stroke="#581C87" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="5" fill="#FEF08A" stroke="#78350F" stroke-width="1.2" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 15. Golden Star Dandelion (Mid-lower slope gap) -->
+              <div class="interactive-land-flower flower-left-dandelion flower-fill-dense" role="button" tabindex="0" aria-label="Golden Dandelion"
+                   style="--sway-deg: 3.3deg; --glow-color: rgba(250, 204, 21, 0.8); right: 125px; top: 62%;">
+                <svg width="44" height="58" viewBox="0 0 48 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 62 C24 46 22 34 24 22" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(24, 22)">
+                    <path d="M0 -16 L3.5 -5 L14 -9 L7 0 L15 6 L5 6 L9 15 L0 8 L-9 15 L-5 6 L-15 6 L-7 0 L-14 -9 L-3.5 -5 Z" fill="#FACC15" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="6" fill="#F59E0B" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 16. Ruby Poppy Peeker (Card margin lower-mid gap) -->
+              <div class="interactive-land-flower flower-left-rubypeek flower-fill-dense" role="button" tabindex="0" aria-label="Ruby Poppy Peeker"
+                   style="--sway-deg: -3.2deg; --glow-color: rgba(225, 29, 72, 0.8); right: 35px; top: 64%;">
+                <svg width="40" height="52" viewBox="0 0 44 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 56 C22 42 24 30 22 18" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(22, 18)">
+                    <circle cx="0" cy="-7" r="7" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="7" cy="0" r="7" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="0" cy="7" r="7" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="-7" cy="0" r="7" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="4.5" fill="#FEF08A" stroke="#78350F" stroke-width="1.2" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 17. Sunny Buttercup Daisy (Mid-lower slope) -->
+              <div class="interactive-land-flower flower-left-buttercup" role="button" tabindex="0" aria-label="Buttercup Daisy"
+                   style="--sway-deg: -2.8deg; --glow-color: rgba(250, 204, 21, 0.75); right: 95px; top: 66%;">
+                <svg width="42" height="56" viewBox="0 0 50 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M25 64 C25 48 22 36 25 24" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(25, 22)">
+                    <circle cx="0" cy="-10" r="7.5" fill="#FACC15" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="9" cy="-3" r="7.5" fill="#FACC15" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="6" cy="8" r="7.5" fill="#FACC15" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="-6" cy="8" r="7.5" fill="#FACC15" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="-9" cy="-3" r="7.5" fill="#FACC15" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="7" fill="#F59E0B" stroke="#78350F" stroke-width="1.4" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 18. Ruby Wild Poppy (Mid-lower slope valley) -->
+              <div class="interactive-land-flower flower-left-rubypoppy" role="button" tabindex="0" aria-label="Ruby Poppy"
+                   style="--sway-deg: 3.2deg; --glow-color: rgba(225, 29, 72, 0.75); right: 155px; top: 66%;">
+                <svg width="42" height="56" viewBox="0 0 48 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 68 C24 50 26 36 24 24" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(24, 22)">
+                    <circle cx="0" cy="-9" r="9" fill="#E11D48" stroke="#881337" stroke-width="1.6" />
+                    <circle cx="9" cy="0" r="9" fill="#E11D48" stroke="#881337" stroke-width="1.6" />
+                    <circle cx="0" cy="9" r="9" fill="#E11D48" stroke="#881337" stroke-width="1.6" />
+                    <circle cx="-9" cy="0" r="9" fill="#E11D48" stroke="#881337" stroke-width="1.6" />
+                    <circle cx="0" cy="0" r="6" fill="#FEF08A" stroke="#78350F" stroke-width="1.5" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 19. Lavender Bellflower (Outer lower slope within green boundary) -->
+              <div class="interactive-land-flower flower-left-bell" role="button" tabindex="0" aria-label="Lavender Bellflower"
+                   style="--sway-deg: -3deg; --glow-color: rgba(192, 132, 252, 0.75); right: 200px; top: 68%;">
+                <svg width="40" height="56" viewBox="0 0 48 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 58 C24 44 26 34 24 22" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(24, 20)">
+                    <path d="M-10 6 C-12 -6 0 -16 0 -16 C0 -16 12 -6 10 6 C6 12 -6 12 -10 6 Z" fill="#C084FC" stroke="#581C87" stroke-width="1.6" />
+                    <circle cx="0" cy="2" r="3.5" fill="#FDF08A" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 20. Mint Clover & Cyan Floret (Lower valley gap) -->
+              <div class="interactive-land-flower flower-left-mintclover flower-fill-dense" role="button" tabindex="0" aria-label="Mint Clover"
+                   style="--sway-deg: 2.6deg; --glow-color: rgba(52, 211, 153, 0.8); right: 155px; top: 72%;">
+                <svg width="42" height="52" viewBox="0 0 46 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23 56 C23 42 21 32 23 20" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(23, 20)">
+                    <circle cx="-8" cy="0" r="8" fill="#6EE7B7" stroke="#047857" stroke-width="1.6" />
+                    <circle cx="8" cy="0" r="8" fill="#6EE7B7" stroke="#047857" stroke-width="1.6" />
+                    <circle cx="0" cy="-8" r="8" fill="#6EE7B7" stroke="#047857" stroke-width="1.6" />
+                    <circle cx="0" cy="0" r="4" fill="#047857" />
+                    <circle cx="12" cy="-6" r="5" fill="#38BDF8" stroke="#0284C7" stroke-width="1.2" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 21. Tangerine Tulip (Foreground valley) -->
+              <div class="interactive-land-flower flower-left-tulip" role="button" tabindex="0" aria-label="Tangerine Tulip"
+                   style="--sway-deg: 3deg; --glow-color: rgba(249, 115, 22, 0.75); right: 125px; top: 74%;">
+                <svg width="40" height="58" viewBox="0 0 48 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 68 C24 50 22 36 24 24" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <path d="M22 48 C14 44 8 32 6 22 C12 26 18 38 22 44" fill="#10B981" stroke="#047857" stroke-width="1.5" />
+                  <g class="flower-head" transform="translate(24, 20)">
+                    <path d="M-13 4 C-16 -12 0 -22 0 -22 C0 -22 16 -12 13 4 C13 14 -13 14 -13 4 Z" fill="#FB923C" stroke="#9A3412" stroke-width="1.8" />
+                    <path d="M-9 4 C-10 -7 0 -15 0 -15 C0 -15 10 -7 9 4 C9 11 -9 11 -9 4 Z" fill="#F97316" />
+                    <circle cx="0" cy="-6" r="3.5" fill="#FEF08A" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 22. Lucky Emerald Clover & Cyan Bud (Ground-cover base) -->
+              <div class="interactive-land-flower flower-left-clover" role="button" tabindex="0" aria-label="Lucky Clover"
+                   style="--sway-deg: -2.5deg; --glow-color: rgba(52, 211, 153, 0.75); right: 185px; top: 76%;">
+                <svg width="46" height="54" viewBox="0 0 52 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M26 58 C26 44 24 34 26 24" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(26, 22)">
+                    <circle cx="-10" cy="0" r="9" fill="#6EE7B7" stroke="#047857" stroke-width="1.8" />
+                    <circle cx="10" cy="0" r="9" fill="#6EE7B7" stroke="#047857" stroke-width="1.8" />
+                    <circle cx="0" cy="-10" r="9" fill="#6EE7B7" stroke="#047857" stroke-width="1.8" />
+                    <circle cx="0" cy="0" r="4.5" fill="#047857" />
+                    <circle cx="16" cy="-8" r="7" fill="#38BDF8" stroke="#0284C7" stroke-width="1.5" />
+                    <circle cx="16" cy="-8" r="3" fill="#FEF08A" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 23. Golden Buttercup Tuft (Card base ground gap) -->
+              <div class="interactive-land-flower flower-left-goldtuft flower-fill-dense" role="button" tabindex="0" aria-label="Golden Buttercup Tuft"
+                   style="--sway-deg: -2.8deg; --glow-color: rgba(250, 204, 21, 0.8); right: 75px; top: 78%;">
+                <svg width="38" height="48" viewBox="0 0 42 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 52 C21 40 23 30 21 18" stroke="#047857" stroke-width="2.6" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(21, 18)">
+                    <circle cx="0" cy="-6" r="6" fill="#FACC15" stroke="#78350F" stroke-width="1.4" />
+                    <circle cx="6" cy="0" r="6" fill="#FACC15" stroke="#78350F" stroke-width="1.4" />
+                    <circle cx="0" cy="6" r="6" fill="#FACC15" stroke="#78350F" stroke-width="1.4" />
+                    <circle cx="-6" cy="0" r="6" fill="#FACC15" stroke="#78350F" stroke-width="1.4" />
+                    <circle cx="0" cy="0" r="4" fill="#F59E0B" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 24. Spring Chamomile & Clover (Ground cover on lawn) -->
+              <div class="interactive-land-flower flower-left-chamomile" role="button" tabindex="0" aria-label="Spring Chamomile"
+                   style="--sway-deg: 2.4deg; --glow-color: rgba(254, 240, 138, 0.8); right: 200px; top: 78%;">
+                <svg width="42" height="52" viewBox="0 0 44 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 52 C22 40 20 30 22 20" stroke="#047857" stroke-width="2.6" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(22, 18)">
+                    <circle cx="0" cy="-8" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="7" cy="-4" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="7" cy="4" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="0" cy="8" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="-7" cy="4" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="-7" cy="-4" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="0" cy="0" r="5.5" fill="#FACC15" stroke="#78350F" stroke-width="1.4" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 25. Bright Magenta Peony Sprig (Foreground mid lawn gap) -->
+              <div class="interactive-land-flower flower-left-magsprig flower-fill-dense" role="button" tabindex="0" aria-label="Magenta Peony Sprig"
+                   style="--sway-deg: 3deg; --glow-color: rgba(236, 72, 153, 0.8); right: 150px; top: 80%;">
+                <svg width="40" height="50" viewBox="0 0 44 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 54 C22 40 20 28 22 18" stroke="#047857" stroke-width="2.6" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(22, 18)">
+                    <circle cx="-5" cy="0" r="7" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="5" cy="0" r="7" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="0" cy="-5" r="6.5" fill="#F472B6" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="0" cy="1" r="3.5" fill="#FDE047" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 26. Twin Chamomile & Snowdrop (Foreground base ground) -->
+              <div class="interactive-land-flower flower-left-twincham flower-fill-dense" role="button" tabindex="0" aria-label="Twin Chamomile"
+                   style="--sway-deg: -2.5deg; --glow-color: rgba(254, 240, 138, 0.8); right: 195px; top: 82%;">
+                <svg width="42" height="48" viewBox="0 0 46 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23 52 C23 38 25 28 23 16" stroke="#047857" stroke-width="2.6" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(23, 16)">
+                    <circle cx="0" cy="-6" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="6" cy="-2" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="4" cy="5" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="-4" cy="5" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="-6" cy="-2" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="0" cy="0" r="4.5" fill="#FACC15" stroke="#78350F" stroke-width="1.2" />
+                  </g>
+                </svg>
+              </div>
+            </div>
+
+            <!-- =========================================================
+                 RIGHT MEADOW FLANK (26 BOTANICAL FLOWERS STRICTLY ON GREEN HILL)
+                 Dense, gap-free botanical garden firmly rooted inside green turf
+                 ========================================================= -->
+            <div class="meadow-flank meadow-flank-right" aria-label="Right Meadow Flowers">
+              <!-- 1. Hero Royal Violet Cosmos (Upper hill crest above BACKEND flag) -->
+              <div class="interactive-land-flower flower-right-cosmos" role="button" tabindex="0" aria-label="Violet Cosmos"
+                   style="--sway-deg: -3deg; --glow-color: rgba(139, 92, 246, 0.75); left: 135px; top: 32%;">
+                <svg width="52" height="68" viewBox="0 0 64 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M32 80 C32 60 36 42 32 30" stroke="#047857" stroke-width="3.5" stroke-linecap="round" />
+                  <path d="M34 54 C44 52 50 44 52 36 C46 36 38 44 34 50" fill="#10B981" stroke="#047857" stroke-width="1.6" />
+                  <path d="M33 46 C23 44 16 38 12 30 C18 32 26 38 33 43" fill="#10B981" stroke="#047857" stroke-width="1.6" />
+                  <g class="flower-head" transform="translate(32, 28)">
+                    <circle cx="0" cy="-17" r="6.5" fill="#8B5CF6" stroke="#4C1D95" stroke-width="1.5" />
+                    <circle cx="10" cy="-14" r="6.5" fill="#8B5CF6" stroke="#4C1D95" stroke-width="1.5" />
+                    <circle cx="16" cy="-5" r="6.5" fill="#8B5CF6" stroke="#4C1D95" stroke-width="1.5" />
+                    <circle cx="16" cy="5" r="6.5" fill="#8B5CF6" stroke="#4C1D95" stroke-width="1.5" />
+                    <circle cx="10" cy="14" r="6.5" fill="#8B5CF6" stroke="#4C1D95" stroke-width="1.5" />
+                    <circle cx="0" cy="17" r="6.5" fill="#8B5CF6" stroke="#4C1D95" stroke-width="1.5" />
+                    <circle cx="-10" cy="14" r="6.5" fill="#8B5CF6" stroke="#4C1D95" stroke-width="1.5" />
+                    <circle cx="-16" cy="5" r="6.5" fill="#8B5CF6" stroke="#4C1D95" stroke-width="1.5" />
+                    <circle cx="-16" cy="-5" r="6.5" fill="#8B5CF6" stroke="#4C1D95" stroke-width="1.5" />
+                    <circle cx="-10" cy="-14" r="6.5" fill="#8B5CF6" stroke="#4C1D95" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="10" fill="#FDE047" stroke="#78350F" stroke-width="1.6" />
+                    <circle cx="0" cy="0" r="4.5" fill="#B45309" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 2. Sunburst Golden Star (Upper corner beside card margin) -->
+              <div class="interactive-land-flower flower-right-sunstar" role="button" tabindex="0" aria-label="Golden Star"
+                   style="--sway-deg: 3.2deg; --glow-color: rgba(250, 204, 21, 0.75); left: 80px; top: 35%;">
+                <svg width="44" height="60" viewBox="0 0 48 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 64 C24 46 28 34 24 22" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(24, 20)">
+                    <path d="M0 -18 L4 -6 L16 -10 L9 0 L18 6 L6 7 L10 18 L0 9 L-10 18 L-6 7 L-18 6 L-9 0 L-16 -10 L-4 -6 Z" fill="#F59E0B" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="6.5" fill="#FEF08A" stroke="#78350F" stroke-width="1.4" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 3. Amber Sunflower Peeker (Card margin gap above flag) -->
+              <div class="interactive-land-flower flower-right-sunpeek flower-fill-dense" role="button" tabindex="0" aria-label="Sunflower Peeker"
+                   style="--sway-deg: 3deg; --glow-color: rgba(251, 191, 36, 0.8); left: 35px; top: 38%;">
+                <svg width="40" height="54" viewBox="0 0 44 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 58 C22 44 20 32 22 20" stroke="#047857" stroke-width="2.6" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(22, 20)">
+                    <circle cx="0" cy="-8" r="6" fill="#FBBF24" stroke="#78350F" stroke-width="1.4" />
+                    <circle cx="7" cy="-4" r="6" fill="#FBBF24" stroke="#78350F" stroke-width="1.4" />
+                    <circle cx="7" cy="4" r="6" fill="#FBBF24" stroke="#78350F" stroke-width="1.4" />
+                    <circle cx="0" cy="8" r="6" fill="#FBBF24" stroke="#78350F" stroke-width="1.4" />
+                    <circle cx="-7" cy="4" r="6" fill="#FBBF24" stroke="#78350F" stroke-width="1.4" />
+                    <circle cx="-7" cy="-4" r="6" fill="#FBBF24" stroke="#78350F" stroke-width="1.4" />
+                    <circle cx="0" cy="0" r="6.5" fill="#78350F" stroke="#B45309" stroke-width="1.4" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 4. Sky Cyan Windflower (Upper ridge slope) -->
+              <div class="interactive-land-flower flower-right-windflower-high" role="button" tabindex="0" aria-label="Sky Windflower"
+                   style="--sway-deg: -3.5deg; --glow-color: rgba(56, 189, 248, 0.75); left: 185px; top: 38%;">
+                <svg width="44" height="60" viewBox="0 0 54 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M27 70 C27 52 30 38 27 26" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <path d="M26 48 C18 44 12 36 10 28 C16 30 22 38 26 44" fill="#34D399" stroke="#047857" stroke-width="1.5" />
+                  <g class="flower-head" transform="translate(27, 24)">
+                    <path d="M0 -20 L3.5 -6 L16 -13 L8 -2 L20 3 L6 6 L13 18 L2 8 L-3 20 L-6 6 L-18 12 L-8 -2 L-20 -8 L-5 -6 Z"
+                          fill="#38BDF8" stroke="#0284C7" stroke-width="1.8" />
+                    <circle cx="0" cy="0" r="6" fill="#C084FC" stroke="#581C87" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="2.5" fill="#FEF08A" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 5. Blushing Peony Bloom (Mid-upper slope) -->
+              <div class="interactive-land-flower flower-right-blushpeony flower-fill-dense" role="button" tabindex="0" aria-label="Blushing Peony"
+                   style="--sway-deg: -3.2deg; --glow-color: rgba(244, 114, 182, 0.8); left: 145px; top: 42%;">
+                <svg width="46" height="60" viewBox="0 0 50 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M25 66 C25 48 27 36 25 24" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <path d="M26 46 C34 42 38 34 40 26 C34 28 28 36 26 42" fill="#10B981" stroke="#047857" stroke-width="1.5" />
+                  <g class="flower-head" transform="translate(25, 24)">
+                    <circle cx="0" cy="-9" r="8" fill="#F472B6" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="9" cy="-3" r="8" fill="#F472B6" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="6" cy="8" r="8" fill="#F472B6" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="-6" cy="8" r="8" fill="#F472B6" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="-9" cy="-3" r="8" fill="#F472B6" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="6" fill="#FDE047" stroke="#78350F" stroke-width="1.4" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 6. Pink Peony Bud Peeker (Card margin upper-mid) -->
+              <div class="interactive-land-flower flower-right-peony" role="button" tabindex="0" aria-label="Pink Peony Bud"
+                   style="--sway-deg: -3.2deg; --glow-color: rgba(244, 114, 182, 0.75); left: 55px; top: 46%;">
+                <svg width="40" height="56" viewBox="0 0 42 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 58 C21 44 23 32 21 22" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <path d="M22 42 C28 38 32 30 34 22 C28 26 24 34 22 38" fill="#10B981" stroke="#047857" stroke-width="1.4" />
+                  <g class="flower-head" transform="translate(21, 18)">
+                    <circle cx="5" cy="0" r="8" fill="#F472B6" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="-5" cy="0" r="8" fill="#F472B6" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="0" cy="-6" r="7" fill="#FBCFE8" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="0" cy="2" r="4" fill="#FACC15" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 7. Tangerine Wild Poppy (Mid-slope beside flag) -->
+              <div class="interactive-land-flower flower-right-tangerine" role="button" tabindex="0" aria-label="Tangerine Poppy"
+                   style="--sway-deg: 3deg; --glow-color: rgba(249, 115, 22, 0.75); left: 165px; top: 48%;">
+                <svg width="46" height="62" viewBox="0 0 48 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 68 C24 50 22 36 24 24" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(24, 20)">
+                    <path d="M-13 4 C-16 -12 0 -22 0 -22 C0 -22 16 -12 13 4 C13 14 -13 14 -13 4 Z" fill="#FB923C" stroke="#9A3412" stroke-width="1.8" />
+                    <circle cx="0" cy="-6" r="3.5" fill="#FEF08A" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 8. Scarlet Wild Poppy (Mid slope beside card) -->
+              <div class="interactive-land-flower flower-right-scarletpop flower-fill-dense" role="button" tabindex="0" aria-label="Scarlet Poppy"
+                   style="--sway-deg: 3.1deg; --glow-color: rgba(225, 29, 72, 0.8); left: 85px; top: 50%;">
+                <svg width="44" height="60" viewBox="0 0 48 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 64 C24 48 26 36 24 24" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(24, 24)">
+                    <circle cx="-8" cy="-4" r="8" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="8" cy="-4" r="8" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="0" cy="6" r="8" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="4.5" fill="#2E1065" stroke="#FEF08A" stroke-width="1.2" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 9. Royal Violet Cosmos (Mid slope outer ridge) -->
+              <div class="interactive-land-flower flower-right-cosmosmid flower-fill-dense" role="button" tabindex="0" aria-label="Violet Cosmos"
+                   style="--sway-deg: 3.2deg; --glow-color: rgba(139, 92, 246, 0.8); left: 185px; top: 50%;">
+                <svg width="42" height="56" viewBox="0 0 46 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23 60 C23 44 25 34 23 22" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(23, 22)">
+                    <circle cx="0" cy="-8" r="6" fill="#8B5CF6" stroke="#4C1D95" stroke-width="1.4" />
+                    <circle cx="7" cy="-3" r="6" fill="#8B5CF6" stroke="#4C1D95" stroke-width="1.4" />
+                    <circle cx="5" cy="6" r="6" fill="#8B5CF6" stroke="#4C1D95" stroke-width="1.4" />
+                    <circle cx="-5" cy="6" r="6" fill="#8B5CF6" stroke="#4C1D95" stroke-width="1.4" />
+                    <circle cx="-7" cy="-3" r="6" fill="#8B5CF6" stroke="#4C1D95" stroke-width="1.4" />
+                    <circle cx="0" cy="0" r="5" fill="#FEF08A" stroke="#78350F" stroke-width="1.2" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 10. Sunburst Golden Daisy (Mid-slope focal bloom) -->
+              <div class="interactive-land-flower flower-right-daisy" role="button" tabindex="0" aria-label="Sunburst Daisy"
+                   style="--sway-deg: 3.6deg; --glow-color: rgba(250, 204, 21, 0.75); left: 115px; top: 52%;">
+                <svg width="48" height="64" viewBox="0 0 58 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M29 72 C29 54 34 38 29 26" stroke="#047857" stroke-width="3.2" stroke-linecap="round" />
+                  <path d="M31 50 C39 48 45 42 47 34 C41 34 35 42 31 47" fill="#34D399" stroke="#047857" stroke-width="1.5" />
+                  <g class="flower-head" transform="translate(29, 24)">
+                    <circle cx="0" cy="-12" r="8" fill="#FACC15" stroke="#78350F" stroke-width="1.6" />
+                    <circle cx="9" cy="-9" r="8" fill="#FACC15" stroke="#78350F" stroke-width="1.6" />
+                    <circle cx="12" cy="0" r="8" fill="#FACC15" stroke="#78350F" stroke-width="1.6" />
+                    <circle cx="9" cy="9" r="8" fill="#FACC15" stroke="#78350F" stroke-width="1.6" />
+                    <circle cx="0" cy="12" r="8" fill="#FACC15" stroke="#78350F" stroke-width="1.6" />
+                    <circle cx="-9" cy="9" r="8" fill="#FACC15" stroke="#78350F" stroke-width="1.6" />
+                    <circle cx="-12" cy="0" r="8" fill="#FACC15" stroke="#78350F" stroke-width="1.6" />
+                    <circle cx="-9" cy="-9" r="8" fill="#FACC15" stroke="#78350F" stroke-width="1.6" />
+                    <circle cx="0" cy="0" r="8.5" fill="#78350F" stroke="#FDE047" stroke-width="1.6" />
+                    <circle cx="0" cy="0" r="4" fill="#D97706" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 11. Tangerine Marigold (Card edge mid gap) -->
+              <div class="interactive-land-flower flower-right-tanmarigold flower-fill-dense" role="button" tabindex="0" aria-label="Tangerine Marigold"
+                   style="--sway-deg: 2.8deg; --glow-color: rgba(245, 158, 11, 0.8); left: 35px; top: 52%;">
+                <svg width="42" height="56" viewBox="0 0 46 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23 60 C23 44 21 32 23 20" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(23, 20)">
+                    <circle cx="0" cy="-8" r="7" fill="#F59E0B" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="8" cy="-2" r="7" fill="#F59E0B" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="5" cy="7" r="7" fill="#F59E0B" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="-5" cy="7" r="7" fill="#F59E0B" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="-8" cy="-2" r="7" fill="#F59E0B" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="5.5" fill="#FEF08A" stroke="#78350F" stroke-width="1.2" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 12. White Alpine Edelweiss (Center mid slope) -->
+              <div class="interactive-land-flower flower-right-edelweiss flower-fill-dense" role="button" tabindex="0" aria-label="White Edelweiss"
+                   style="--sway-deg: -3deg; --glow-color: rgba(254, 240, 138, 0.8); left: 145px; top: 56%;">
+                <svg width="44" height="58" viewBox="0 0 48 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 62 C24 46 22 34 24 22" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(24, 22)">
+                    <circle cx="0" cy="-11" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="7" cy="-9" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="11" cy="0" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="7" cy="9" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="0" cy="11" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="-7" cy="9" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="-11" cy="0" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="-7" cy="-9" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="0" cy="0" r="6.5" fill="#FACC15" stroke="#78350F" stroke-width="1.4" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 13. Ruby Poppy (Card margin mid-lower) -->
+              <div class="interactive-land-flower flower-right-poppy" role="button" tabindex="0" aria-label="Ruby Poppy"
+                   style="--sway-deg: -3deg; --glow-color: rgba(225, 29, 72, 0.75); left: 65px; top: 58%;">
+                <svg width="40" height="56" viewBox="0 0 48 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 68 C24 50 26 36 24 24" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(24, 22)">
+                    <circle cx="0" cy="-9" r="9" fill="#E11D48" stroke="#881337" stroke-width="1.6" />
+                    <circle cx="9" cy="0" r="9" fill="#E11D48" stroke="#881337" stroke-width="1.6" />
+                    <circle cx="0" cy="9" r="9" fill="#E11D48" stroke="#881337" stroke-width="1.6" />
+                    <circle cx="-9" cy="0" r="9" fill="#E11D48" stroke="#881337" stroke-width="1.6" />
+                    <circle cx="0" cy="0" r="6" fill="#FEF08A" stroke="#78350F" stroke-width="1.5" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 14. Lavender Bellflower (Mid-slope outer edge) -->
+              <div class="interactive-land-flower flower-right-lavbell flower-fill-dense" role="button" tabindex="0" aria-label="Lavender Bellflower"
+                   style="--sway-deg: 3deg; --glow-color: rgba(192, 132, 252, 0.8); left: 185px; top: 60%;">
+                <svg width="42" height="56" viewBox="0 0 46 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23 60 C23 44 21 34 23 22" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(23, 22)">
+                    <circle cx="0" cy="-8" r="6.5" fill="#C084FC" stroke="#581C87" stroke-width="1.5" />
+                    <circle cx="7" cy="-3" r="6.5" fill="#C084FC" stroke="#581C87" stroke-width="1.5" />
+                    <circle cx="5" cy="6" r="6.5" fill="#C084FC" stroke="#581C87" stroke-width="1.5" />
+                    <circle cx="-5" cy="6" r="6.5" fill="#C084FC" stroke="#581C87" stroke-width="1.5" />
+                    <circle cx="-7" cy="-3" r="6.5" fill="#C084FC" stroke="#581C87" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="5" fill="#FEF08A" stroke="#78350F" stroke-width="1.2" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 15. Golden Buttercup Daisy (Mid-lower slope) -->
+              <div class="interactive-land-flower flower-right-buttercupmid flower-fill-dense" role="button" tabindex="0" aria-label="Buttercup Daisy"
+                   style="--sway-deg: -3.3deg; --glow-color: rgba(250, 204, 21, 0.8); left: 125px; top: 62%;">
+                <svg width="44" height="58" viewBox="0 0 48 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 62 C24 46 26 34 24 22" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(24, 22)">
+                    <circle cx="0" cy="-9" r="6.5" fill="#FACC15" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="8" cy="-4" r="6.5" fill="#FACC15" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="6" cy="7" r="6.5" fill="#FACC15" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="-6" cy="7" r="6.5" fill="#FACC15" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="-8" cy="-4" r="6.5" fill="#FACC15" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="5" fill="#F59E0B" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 16. Pink Peony Peeker (Card margin lower-mid gap) -->
+              <div class="interactive-land-flower flower-right-pinkpeek flower-fill-dense" role="button" tabindex="0" aria-label="Pink Peony Peeker"
+                   style="--sway-deg: 3.2deg; --glow-color: rgba(244, 114, 182, 0.8); left: 35px; top: 64%;">
+                <svg width="40" height="52" viewBox="0 0 44 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 56 C22 42 20 30 22 18" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(22, 18)">
+                    <circle cx="0" cy="-7" r="7" fill="#F472B6" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="7" cy="0" r="7" fill="#F472B6" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="0" cy="7" r="7" fill="#F472B6" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="-7" cy="0" r="7" fill="#F472B6" stroke="#9F1239" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="4.5" fill="#FEF08A" stroke="#78350F" stroke-width="1.2" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 17. Buttercup Blossom (Mid-lower slope) -->
+              <div class="interactive-land-flower flower-right-buttercup" role="button" tabindex="0" aria-label="Buttercup Blossom"
+                   style="--sway-deg: 2.8deg; --glow-color: rgba(250, 204, 21, 0.75); left: 95px; top: 66%;">
+                <svg width="42" height="56" viewBox="0 0 50 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M25 64 C25 48 28 36 25 24" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(25, 22)">
+                    <circle cx="0" cy="-10" r="7.5" fill="#FACC15" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="9" cy="-3" r="7.5" fill="#FACC15" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="6" cy="8" r="7.5" fill="#FACC15" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="-6" cy="8" r="7.5" fill="#FACC15" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="-9" cy="-3" r="7.5" fill="#FACC15" stroke="#78350F" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="7" fill="#F59E0B" stroke="#78350F" stroke-width="1.4" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 18. Crimson Wild Orchid (Mid-lower slope valley) -->
+              <div class="interactive-land-flower flower-right-orchid" role="button" tabindex="0" aria-label="Wild Orchid"
+                   style="--sway-deg: -3.2deg; --glow-color: rgba(225, 29, 72, 0.75); left: 155px; top: 66%;">
+                <svg width="42" height="56" viewBox="0 0 50 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M25 64 C25 48 28 36 25 24" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(25, 20)">
+                    <path d="M-12 2 C-14 -10 0 -18 0 -18 C0 -18 14 -10 12 2 C14 12 -14 12 -12 2 Z" fill="#E11D48" stroke="#881337" stroke-width="1.6" />
+                    <circle cx="0" cy="-2" r="5.5" fill="#EC4899" />
+                    <circle cx="0" cy="4" r="3.5" fill="#FEF08A" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 19. Pastel Lilac Bellflower (Lower outer slope) -->
+              <div class="interactive-land-flower flower-right-lilac" role="button" tabindex="0" aria-label="Lilac Bellflower"
+                   style="--sway-deg: 3deg; --glow-color: rgba(192, 132, 252, 0.75); left: 200px; top: 68%;">
+                <svg width="40" height="56" viewBox="0 0 48 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 58 C24 44 26 34 24 22" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(24, 20)">
+                    <path d="M-10 6 C-12 -6 0 -16 0 -16 C0 -16 12 -6 10 6 C6 12 -6 12 -10 6 Z" fill="#C084FC" stroke="#581C87" stroke-width="1.6" />
+                    <circle cx="0" cy="2" r="3.5" fill="#FDF08A" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 20. Emerald Clover & Gold Bud (Lower valley gap) -->
+              <div class="interactive-land-flower flower-right-emclover flower-fill-dense" role="button" tabindex="0" aria-label="Emerald Clover"
+                   style="--sway-deg: -2.6deg; --glow-color: rgba(52, 211, 153, 0.8); left: 155px; top: 72%;">
+                <svg width="42" height="52" viewBox="0 0 46 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23 56 C23 42 25 32 23 20" stroke="#047857" stroke-width="2.8" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(23, 20)">
+                    <circle cx="-8" cy="0" r="8" fill="#6EE7B7" stroke="#047857" stroke-width="1.6" />
+                    <circle cx="8" cy="0" r="8" fill="#6EE7B7" stroke="#047857" stroke-width="1.6" />
+                    <circle cx="0" cy="-8" r="8" fill="#6EE7B7" stroke="#047857" stroke-width="1.6" />
+                    <circle cx="0" cy="0" r="4" fill="#047857" />
+                    <circle cx="-12" cy="-6" r="5" fill="#FDE047" stroke="#B45309" stroke-width="1.2" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 21. Tangerine Tulip (Foreground valley) -->
+              <div class="interactive-land-flower flower-right-tulip" role="button" tabindex="0" aria-label="Tangerine Tulip"
+                   style="--sway-deg: -3deg; --glow-color: rgba(249, 115, 22, 0.75); left: 125px; top: 74%;">
+                <svg width="40" height="58" viewBox="0 0 48 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 68 C24 50 26 36 24 24" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(24, 20)">
+                    <path d="M-13 4 C-16 -12 0 -22 0 -22 C0 -22 16 -12 13 4 C13 14 -13 14 -13 4 Z" fill="#FB923C" stroke="#9A3412" stroke-width="1.8" />
+                    <path d="M-9 4 C-10 -7 0 -15 0 -15 C0 -15 10 -7 9 4 C9 11 -9 11 -9 4 Z" fill="#F97316" />
+                    <circle cx="0" cy="-6" r="3.5" fill="#FEF08A" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 22. Lucky Emerald Clover & Cyan Bud (Ground-cover base) -->
+              <div class="interactive-land-flower flower-right-clover" role="button" tabindex="0" aria-label="Lucky Clover"
+                   style="--sway-deg: 2.5deg; --glow-color: rgba(52, 211, 153, 0.75); left: 185px; top: 76%;">
+                <svg width="46" height="54" viewBox="0 0 52 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M26 58 C26 44 28 34 26 24" stroke="#047857" stroke-width="3" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(26, 22)">
+                    <circle cx="-10" cy="0" r="9" fill="#6EE7B7" stroke="#047857" stroke-width="1.8" />
+                    <circle cx="10" cy="0" r="9" fill="#6EE7B7" stroke="#047857" stroke-width="1.8" />
+                    <circle cx="0" cy="-10" r="9" fill="#6EE7B7" stroke="#047857" stroke-width="1.8" />
+                    <circle cx="0" cy="0" r="4.5" fill="#047857" />
+                    <circle cx="16" cy="-8" r="7" fill="#38BDF8" stroke="#0284C7" stroke-width="1.5" />
+                    <circle cx="16" cy="-8" r="3" fill="#FEF08A" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 23. Sunny Buttercup Tuft (Card base ground gap) -->
+              <div class="interactive-land-flower flower-right-goldtuft flower-fill-dense" role="button" tabindex="0" aria-label="Sunny Buttercup Tuft"
+                   style="--sway-deg: 2.8deg; --glow-color: rgba(250, 204, 21, 0.8); left: 75px; top: 78%;">
+                <svg width="38" height="48" viewBox="0 0 42 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 52 C21 40 19 30 21 18" stroke="#047857" stroke-width="2.6" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(21, 18)">
+                    <circle cx="0" cy="-6" r="6" fill="#FACC15" stroke="#78350F" stroke-width="1.4" />
+                    <circle cx="6" cy="0" r="6" fill="#FACC15" stroke="#78350F" stroke-width="1.4" />
+                    <circle cx="0" cy="6" r="6" fill="#FACC15" stroke="#78350F" stroke-width="1.4" />
+                    <circle cx="-6" cy="0" r="6" fill="#FACC15" stroke="#78350F" stroke-width="1.4" />
+                    <circle cx="0" cy="0" r="4" fill="#F59E0B" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 24. White Clover & Chamomile (Outer ground cover) -->
+              <div class="interactive-land-flower flower-right-chamomile" role="button" tabindex="0" aria-label="White Clover"
+                   style="--sway-deg: -2.4deg; --glow-color: rgba(254, 240, 138, 0.8); left: 200px; top: 78%;">
+                <svg width="42" height="52" viewBox="0 0 44 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 52 C22 40 24 30 22 20" stroke="#047857" stroke-width="2.6" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(22, 18)">
+                    <circle cx="-8" cy="0" r="7" fill="#6EE7B7" stroke="#047857" stroke-width="1.5" />
+                    <circle cx="8" cy="0" r="7" fill="#6EE7B7" stroke="#047857" stroke-width="1.5" />
+                    <circle cx="0" cy="-8" r="7" fill="#6EE7B7" stroke="#047857" stroke-width="1.5" />
+                    <circle cx="0" cy="0" r="5.5" fill="#FFFFFF" stroke="#64748B" stroke-width="1.2" />
+                    <circle cx="0" cy="0" r="2.5" fill="#FDE047" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 25. Crimson Rosebud Sprig (Foreground mid gap) -->
+              <div class="interactive-land-flower flower-right-crimsonbud flower-fill-dense" role="button" tabindex="0" aria-label="Crimson Rosebud"
+                   style="--sway-deg: -3deg; --glow-color: rgba(225, 29, 72, 0.8); left: 150px; top: 80%;">
+                <svg width="40" height="50" viewBox="0 0 44 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 54 C22 40 24 28 22 18" stroke="#047857" stroke-width="2.6" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(22, 18)">
+                    <circle cx="-5" cy="0" r="7" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="5" cy="0" r="7" fill="#E11D48" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="0" cy="-5" r="6.5" fill="#FB7185" stroke="#881337" stroke-width="1.5" />
+                    <circle cx="0" cy="1" r="3.5" fill="#FEF08A" />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- 26. Chamomile & Clover (Foreground outer ground gap) -->
+              <div class="interactive-land-flower flower-right-twincham flower-fill-dense" role="button" tabindex="0" aria-label="Chamomile & Clover"
+                   style="--sway-deg: 2.5deg; --glow-color: rgba(254, 240, 138, 0.8); left: 195px; top: 82%;">
+                <svg width="42" height="48" viewBox="0 0 46 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23 52 C23 38 21 28 23 16" stroke="#047857" stroke-width="2.6" stroke-linecap="round" />
+                  <g class="flower-head" transform="translate(23, 16)">
+                    <circle cx="0" cy="-6" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="6" cy="-2" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="4" cy="5" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="-4" cy="5" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="-6" cy="-2" r="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+                    <circle cx="0" cy="0" r="4.5" fill="#FACC15" stroke="#78350F" stroke-width="1.2" />
+                  </g>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Interactive Workflow Telemetry Scrubber (Screenshot 1 bottom) -->
+            <div class="workflow-scrubber-box" id="workflow-scrubber">
+            <!-- Tab Bar -->
+            <div class="scrubber-tab-bar">
+              <button class="scrubber-tab active" data-scenario="mcp">Block Majority</button>
+              <button class="scrubber-tab" data-scenario="rag">Vively</button>
+              <button class="scrubber-tab" data-scenario="unet">Zebo</button>
+              <button class="scrubber-tab" data-scenario="freelance">Freelance</button>
+              <button class="scrubber-tab" data-scenario="jain">Jain Uni</button>
+              <button class="scrubber-tab" data-scenario="verzeo">Verzeo</button>
+            </div>
+
+            <!-- Terminal & Visual Split -->
+            <div class="scrubber-content">
+              <div class="scrubber-terminal">
+                <!-- Live steps generated by workflow-scrubber.js -->
+              </div>
+              <div class="scrubber-visual-node">
+                <div class="scrubber-meta-header">
+                  <span class="category-tag scrubber-node-role">SOFTWARE ENGINEER · SYDNEY</span>
+                  <span class="scrubber-period-badge">Jun 2025 – Nov 2025 (6 Months)</span>
+                </div>
+                <h4 class="scrubber-node-title">MCP Client/Server &amp; Private Blockchain Settlement (ANZ Bank)</h4>
+                <p class="scrubber-node-desc">Worked on MCP client and server development for ANZ Bank, ensuring efficient API integration and authentications to orchestrate blockchain transactions on private chains with cross-chain settlement using agents, binding on-chain/off-chain components. Developed dynamic rules engine in natural language, GCP Docker CI/CD, and an immutable audit layer on private blockchain networks to securely record agentic decisions.</p>
+                <div class="scrubber-node-metrics">
+                  ANZ Bank MCP · Sub-50ms Settlement · 100% Agent Traceability · GCP CI/CD
+                </div>
+              </div>
+            </div>
+
+            <!-- Scrub Controls Bar -->
+            <div class="scrubber-controls">
+              <button class="scrubber-play-btn" aria-label="Toggle Playback">❚❚</button>
+              <div class="scrubber-progress-track">
+                <div class="scrubber-progress-fill"></div>
+              </div>
+              <div class="scrubber-timecode">0:14 / 1:32</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Retro CRT Chandelier Section (Screenshot 2)
+         ========================================================================= -->
+    <section class="chandelier-section" id="chandelier">
+      <div class="site-container">
+        <div class="chandelier-header">
+          <p class="chandelier-serif-lead">AI made everyone a builder.</p>
+          <h2 class="chandelier-sans-punch">
+            Shipping production systems is <span class="highlight-text">100× harder.</span>
+          </h2>
+
+          <!-- Tangled Multi-Color Knot Icon (Screenshot 2) -->
+          <div class="knot-divider">
+            <svg class="tangled-arrow-icon" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Tangled arrows matching screenshot 2 -->
+              <path d="M12 40 C 20 20, 52 20, 60 40" stroke="#E02475" stroke-width="5" stroke-linecap="round" />
+              <path d="M20 56 C 28 32, 44 60, 52 24" stroke="#8B5CF6" stroke-width="5" stroke-linecap="round" />
+              <path d="M36 12 C 16 36, 56 36, 36 60" stroke="#10B981" stroke-width="5" stroke-linecap="round" />
+              <path d="M50 16 L 62 20 L 58 32" stroke="#E02475" stroke-width="4" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M44 52 L 56 56 L 60 44" stroke="#8B5CF6" stroke-width="4" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M28 52 L 36 60 L 44 52" stroke="#10B981" stroke-width="4" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+
+          <p class="chandelier-description">
+            Anyone can chain an API endpoint or script a demo. But when latency, prompt injection, data drift, and strict regulatory compliance hit, real engineering begins. Below is the live constellation of systems I have engineered: from zero-trust MCP protocols on private blockchains, real-time voice intelligence in Rust (Lumen Flow with Deepgram &amp; Groq), automated food logging with LLM &amp; RAG at Vively (+18% DAU), and sub-15ms clinical vision models at Zebo.AI, to founding Cumen (Cumen.space) to automate recruiter workflows and candidate journeys. Click any screen to inspect the architecture and code.
+          </p>
+        </div>
+
+        <!-- Hanging Lilac Monitor Chandelier -->
+        <div class="chandelier-container">
+          <!-- SVG Vine Connector Cables with Botanical Seed Origin -->
+          <svg class="chandelier-cables-svg" viewBox="0 0 1200 500" fill="none" preserveAspectRatio="none">
+            <defs>
+              <!-- Seed Glow Filter -->
+              <filter id="seed-glow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="5" result="blur1" />
+                <feGaussianBlur stdDeviation="12" result="blur2" />
+                <feMerge>
+                  <feMergeNode in="blur2" />
+                  <feMergeNode in="blur1" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+
+              <!-- Seed Intense Hover Glow Filter -->
+              <filter id="seed-hover-glow" x="-80%" y="-80%" width="260%" height="260%">
+                <feGaussianBlur stdDeviation="8" result="glow1" />
+                <feGaussianBlur stdDeviation="18" result="glow2" />
+                <feMerge>
+                  <feMergeNode in="glow2" />
+                  <feMergeNode in="glow1" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+
+              <!-- Prismatic Origin Glow Filters -->
+              <filter id="seed-glow" x="-60%" y="-60%" width="220%" height="220%">
+                <feGaussianBlur stdDeviation="4" result="blur1" />
+                <feGaussianBlur stdDeviation="12" result="blur2" />
+                <feMerge>
+                  <feMergeNode in="blur2" />
+                  <feMergeNode in="blur1" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+
+              <filter id="seed-hover-glow" x="-80%" y="-80%" width="260%" height="260%">
+                <feGaussianBlur stdDeviation="8" result="glow1" />
+                <feGaussianBlur stdDeviation="20" result="glow2" />
+                <feMerge>
+                  <feMergeNode in="glow2" />
+                  <feMergeNode in="glow1" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+
+              <!-- Celestial Ambient Halo Gradient -->
+              <radialGradient id="nexusHaloGrad" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#FEF08A" stop-opacity="0.32" />
+                <stop offset="35%" stop-color="#8B5CF6" stop-opacity="0.22" />
+                <stop offset="70%" stop-color="#4C1D95" stop-opacity="0.08" />
+                <stop offset="100%" stop-color="#0E0720" stop-opacity="0" />
+              </radialGradient>
+
+              <!-- Luxury Haute Horology Champagne Gold Gradient -->
+              <linearGradient id="nexusGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FFFBEB" />
+                <stop offset="25%" stop-color="#FDE047" />
+                <stop offset="60%" stop-color="#D97706" />
+                <stop offset="85%" stop-color="#F59E0B" />
+                <stop offset="100%" stop-color="#92400E" />
+              </linearGradient>
+
+              <!-- Dark Obsidian Crystalline Facet Gradients -->
+              <linearGradient id="nexusFacetLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#2D124D" />
+                <stop offset="50%" stop-color="#190A2E" />
+                <stop offset="100%" stop-color="#0A0414" />
+              </linearGradient>
+
+              <linearGradient id="nexusFacetRight" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#6D28D9" />
+                <stop offset="45%" stop-color="#4C1D95" />
+                <stop offset="100%" stop-color="#1E0A3C" />
+              </linearGradient>
+
+              <linearGradient id="nexusFacetCenter" x1="50%" y1="0%" x2="50%" y2="100%">
+                <stop offset="0%" stop-color="#8B5CF6" />
+                <stop offset="35%" stop-color="#3B1868" />
+                <stop offset="80%" stop-color="#180A2E" />
+                <stop offset="100%" stop-color="#0E0720" />
+              </linearGradient>
+
+              <!-- Singularity Quantum Living Core -->
+              <radialGradient id="nexusHeartGrad" cx="45%" cy="38%" r="60%">
+                <stop offset="0%" stop-color="#FFFFFF" />
+                <stop offset="25%" stop-color="#FEF08A" />
+                <stop offset="60%" stop-color="#F59E0B" />
+                <stop offset="90%" stop-color="#D97706" />
+                <stop offset="100%" stop-color="#7C2D12" />
+              </radialGradient>
+
+              <!-- Stylized Cyber-Botanical Golden Laurel Gradient -->
+              <linearGradient id="nexusLaurelGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#059669" />
+                <stop offset="35%" stop-color="#10B981" />
+                <stop offset="70%" stop-color="#F59E0B" />
+                <stop offset="100%" stop-color="#FEF08A" />
+              </linearGradient>
+
+              <!-- Conductor Manifold Optical Bead Gradient -->
+              <radialGradient id="coreOpticalBead" cx="40%" cy="35%" r="60%">
+                <stop offset="0%" stop-color="#FFFFFF" />
+                <stop offset="30%" stop-color="#67E8F9" />
+                <stop offset="70%" stop-color="#10B981" />
+                <stop offset="100%" stop-color="#064E3B" />
+              </radialGradient>
+            </defs>
+
+            <!-- Organic vine cables originating from the botanical seed -->
+            <path class="vine-cable vine-cable-1" d="M 600 52 Q 320 95 120 100" stroke="#8B5CF6" stroke-width="2.4" stroke-linecap="round" />
+            <path class="vine-cable vine-cable-2" d="M 600 52 Q 410 130 250 200" stroke="#10B981" stroke-width="2.2" stroke-linecap="round" />
+            <path class="vine-cable vine-cable-3" d="M 600 52 Q 460 220 200 390" stroke="#0284C7" stroke-width="2.4" stroke-linecap="round" />
+            <path class="vine-cable vine-cable-4" d="M 600 52 Q 300 210 70 270" stroke="#F59E0B" stroke-width="2.2" stroke-linecap="round" />
+            <path class="vine-cable vine-cable-5" d="M 600 52 Q 800 85 990 100" stroke="#F43F5E" stroke-width="2.4" stroke-linecap="round" />
+            <path class="vine-cable vine-cable-6" d="M 600 52 Q 760 140 890 210" stroke="#7C3AED" stroke-width="2.4" stroke-linecap="round" />
+            <path class="vine-cable vine-cable-7" d="M 600 52 Q 860 170 1130 190" stroke="#EA580C" stroke-width="2.2" stroke-linecap="round" />
+            <path class="vine-cable vine-cable-8" d="M 600 52 Q 770 260 990 390" stroke="#0D9488" stroke-width="2.4" stroke-linecap="round" />
+
+            <!-- Colorful Vine Buds & Leaf Spheres -->
+            <circle class="vine-bud" cx="280" cy="90" r="7" fill="#10B981" stroke="#3D1C8C" stroke-width="1.6" />
+            <circle class="vine-bud" cx="450" cy="115" r="8" fill="#F43F5E" stroke="#3D1C8C" stroke-width="1.6" />
+            <circle class="vine-bud" cx="780" cy="95" r="7" fill="#FBBF24" stroke="#3D1C8C" stroke-width="1.6" />
+            <circle class="vine-bud" cx="890" cy="180" r="8" fill="#06B6D4" stroke="#3D1C8C" stroke-width="1.6" />
+            <circle class="vine-bud" cx="190" cy="270" r="6" fill="#A855F7" stroke="#3D1C8C" stroke-width="1.5" />
+            <circle class="vine-bud" cx="1020" cy="260" r="7" fill="#FB923C" stroke="#3D1C8C" stroke-width="1.5" />
+
+            <!-- The Prismatic Neural Origin Core (Hover to energize the neural architecture) -->
+            <g class="origin-botanical-seed" id="origin-botanical-seed" title="Prismatic Neural Core (Hover to energize the constellation)">
+              <!-- 1. Ambient Celestial Energy Haze -->
+              <circle class="seed-aura-outer" cx="600" cy="30" r="50" fill="url(#nexusHaloGrad)" />
+              <circle class="seed-aura-inner" cx="600" cy="30" r="28" fill="#FDE047" opacity="0.18" filter="url(#seed-glow)" />
+
+              <!-- 2. Sacred Geometry Astrolabe Rings & Azimuth Markers -->
+              <g class="astrolabe-ring-group">
+                <circle class="astrolabe-orbit-outer" cx="600" cy="30" r="38" fill="none" stroke="url(#nexusGoldGrad)" stroke-width="1" stroke-dasharray="3 4" opacity="0.6" />
+                <circle class="astrolabe-orbit-inner" cx="600" cy="30" r="28" fill="none" stroke="rgba(245, 158, 11, 0.4)" stroke-width="0.8" />
+                
+                <!-- Cardinal Golden Diamond Pips -->
+                <polygon points="600,-8 602,-5 600,-2 598,-5" fill="#FEF08A" />
+                <polygon points="600,68 602,65 600,62 598,65" fill="#FEF08A" opacity="0.8" />
+                <polygon points="562,30 565,32 568,30 565,28" fill="#FEF08A" opacity="0.7" />
+                <polygon points="638,30 635,32 632,30 635,28" fill="#FEF08A" opacity="0.7" />
+
+                <!-- 45-degree Precision Astrolabe Ticks -->
+                <line x1="573" y1="12" x2="576" y2="15" stroke="#FDE047" stroke-width="0.9" opacity="0.5" />
+                <line x1="627" y1="12" x2="624" y2="15" stroke="#FDE047" stroke-width="0.9" opacity="0.5" />
+                <line x1="573" y1="48" x2="576" y2="45" stroke="#FDE047" stroke-width="0.9" opacity="0.5" />
+                <line x1="627" y1="48" x2="624" y2="45" stroke="#FDE047" stroke-width="0.9" opacity="0.5" />
+              </g>
+
+              <!-- 3. Flanking Cyber-Botanical Laurels (Fine Editorial Flourish) -->
+              <g class="seed-laurels">
+                <!-- Left Laurel Branch -->
+                <path class="seed-leaf seed-leaf-left" d="M 598 14 C 590 5 577 6 575 -4 C 572 6 584 12 597 15 Z" fill="url(#nexusLaurelGrad)" stroke="#FEF08A" stroke-width="0.8" />
+                <path class="seed-leaf-sub" d="M 592 10 C 586 4 580 4 577 -1 C 578 5 585 8 591 11 Z" fill="url(#nexusLaurelGrad)" opacity="0.8" />
+                
+                <!-- Right Laurel Branch -->
+                <path class="seed-leaf seed-leaf-right" d="M 602 14 C 610 5 623 6 625 -4 C 628 6 616 12 603 15 Z" fill="url(#nexusLaurelGrad)" stroke="#FEF08A" stroke-width="0.8" />
+                <path class="seed-leaf-sub" d="M 608 10 C 614 4 620 4 623 -1 C 622 5 615 8 609 11 Z" fill="url(#nexusLaurelGrad)" opacity="0.8" />
+
+                <!-- Apex Celestial Starlight Pip -->
+                <line x1="600" y1="12" x2="600" y2="-6" stroke="url(#nexusGoldGrad)" stroke-width="1.2" stroke-linecap="round" />
+                <circle class="seed-dewdrop" cx="600" cy="-6" r="2.8" fill="#FFFFFF" filter="url(#seed-glow)" />
+                <polygon points="600,-9 601,-6 600,-3 599,-6" fill="#FEF08A" />
+              </g>
+
+              <!-- 4. Crystalline Diamond-Seed Faceted Outer Shroud -->
+              <!-- Left Facet -->
+              <polygon points="600,10 582,26 585,42 600,50" fill="url(#nexusFacetLeft)" stroke="rgba(245, 158, 11, 0.45)" stroke-width="0.9" />
+              <!-- Right Facet -->
+              <polygon points="600,10 618,26 615,42 600,50" fill="url(#nexusFacetRight)" stroke="rgba(245, 158, 11, 0.45)" stroke-width="0.9" />
+              <!-- Center Facet -->
+              <polygon points="600,10 610,26 600,48 590,26" fill="url(#nexusFacetCenter)" stroke="url(#nexusGoldGrad)" stroke-width="1.1" />
+
+              <!-- Specular Chiseled Edge Highlights -->
+              <line x1="600" y1="10" x2="600" y2="48" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.85" />
+              <line x1="600" y1="10" x2="582" y2="26" stroke="#FEF08A" stroke-width="0.8" stroke-opacity="0.6" />
+              <line x1="600" y1="10" x2="618" y2="26" stroke="#FEF08A" stroke-width="0.8" stroke-opacity="0.9" />
+
+              <!-- 5. Pulsing Quantum Singularity Kernel (The Living Core) -->
+              <path class="seed-kernel" d="M 600 18 C 607 24 607 34 600 42 C 593 34 593 24 600 18 Z" fill="url(#nexusHeartGrad)" filter="url(#seed-glow)" opacity="0.95" />
+              <circle cx="600" cy="30" r="2.8" fill="#FFFFFF" />
+
+              <!-- 6. Precision Micro-Grid Ribs (Cyber-Botanical Geometry) -->
+              <ellipse cx="600" cy="30" rx="6" ry="12" fill="none" stroke="rgba(255, 255, 255, 0.5)" stroke-width="0.8" stroke-dasharray="1 2" />
+
+              <!-- 7. Optical Terminal Conductor Hub (Manifold Anchoring all 8 Cables at 600, 52) -->
+              <g class="cable-conductor-hub">
+                <!-- Golden Manifold Collar -->
+                <rect x="586" y="47" width="28" height="11" rx="5.5" fill="#0E0720" stroke="url(#nexusGoldGrad)" stroke-width="1.4" />
+                <!-- Micro Instrument Screws -->
+                <circle cx="590" cy="52.5" r="1.3" fill="#D4AF37" />
+                <circle cx="610" cy="52.5" r="1.3" fill="#D4AF37" />
+                <!-- Glowing Cyan-Emerald Optical Origin Emitter -->
+                <circle class="seed-root-node" cx="600" cy="52.5" r="4.6" fill="url(#coreOpticalBead)" stroke="#FFFFFF" stroke-width="1" filter="url(#seed-glow)" />
+                <circle class="seed-root-sparkle" cx="600" cy="52.5" r="1.8" fill="#FFFFFF" />
+              </g>
+
+              <!-- 8. Luminous Wavefront Pulse Ripples (Concentric Quantum Harmonics) -->
+              <circle cx="600" cy="52.5" r="10" fill="none" stroke="#F59E0B" stroke-width="1.2" opacity="0.8" class="seed-pulse-ring ring-gold" />
+              <circle cx="600" cy="52.5" r="17" fill="none" stroke="#8B5CF6" stroke-width="1" opacity="0.6" class="seed-pulse-ring ring-violet" />
+              <circle cx="600" cy="52.5" r="25" fill="none" stroke="#FEF08A" stroke-width="0.7" opacity="0.4" stroke-dasharray="3 3" class="seed-pulse-ring ring-amber" />
+            </g>
+          </svg>
+
+          <!-- 8 Blooming Botanical Flowers Cluster -->
+          <div class="crt-screens-cluster">
+            <!-- Flower 1: MCP Protocol -->
+            <div class="crt-monitor monitor-top-left" data-project-id="block-majority" role="button" tabindex="0" title="MCP Protocol (Click for architecture)">
+              <div class="crt-screen-bezel"><canvas class="crt-screen-canvas"></canvas></div>
+              <span class="crt-monitor-badge badge-mcp">MCP Protocol</span>
+            </div>
+
+            <!-- Flower 2: AI Food Log -->
+            <div class="crt-monitor monitor-mid-left" data-project-id="vively" role="button" tabindex="0" title="AI Food Log (Click for architecture)">
+              <div class="crt-screen-bezel"><canvas class="crt-screen-canvas"></canvas></div>
+              <span class="crt-monitor-badge badge-foodlog">AI Food Log</span>
+            </div>
+
+            <!-- Flower 3: U-Net Vision -->
+            <div class="crt-monitor monitor-bot-left" data-project-id="zebo-ai" role="button" tabindex="0" title="U-Net Vision (Click for architecture)">
+              <div class="crt-screen-bezel"><canvas class="crt-screen-canvas"></canvas></div>
+              <span class="crt-monitor-badge badge-unet">U-Net Vision</span>
+            </div>
+
+            <!-- Flower 4: Lumen Flow (Wispr Flow Clone) -->
+            <div class="crt-monitor monitor-far-left" data-project-id="lumen-flow" role="button" tabindex="0" title="Lumen Flow (Wispr Flow Clone in Rust · Click for architecture)">
+              <div class="crt-screen-bezel"><canvas class="crt-screen-canvas"></canvas></div>
+              <span class="crt-monitor-badge badge-lumen">Lumen Flow (Rust)</span>
+            </div>
+
+            <!-- Flower 5: Cumen (Startup) -->
+            <div class="crt-monitor monitor-top-right crt-monitor-featured" data-project-id="cumen" role="button" tabindex="0" title="Cumen (Startup) (Click for architecture)">
+              <div class="crt-screen-bezel"><canvas class="crt-screen-canvas"></canvas></div>
+              <span class="crt-monitor-badge badge-cumen crt-badge-cumen">Cumen (Startup)</span>
+            </div>
+
+            <!-- Flower 6: FinTrust AI -->
+            <div class="crt-monitor monitor-mid-right" data-project-id="fintrust-ai" role="button" tabindex="0" title="FinTrust AI (Click for architecture)">
+              <div class="crt-screen-bezel"><canvas class="crt-screen-canvas"></canvas></div>
+              <span class="crt-monitor-badge badge-fintrust">FinTrust AI</span>
+            </div>
+
+            <!-- Flower 7: BERT Attention -->
+            <div class="crt-monitor monitor-far-right" data-project-id="research-jain" role="button" tabindex="0" title="BERT Attention (Click for architecture)">
+              <div class="crt-screen-bezel"><canvas class="crt-screen-canvas"></canvas></div>
+              <span class="crt-monitor-badge badge-attention">BERT Attention</span>
+            </div>
+
+            <!-- Flower 8: Autonomous DevOps -->
+            <div class="crt-monitor monitor-bot-right" data-project-id="autonomous-devops" role="button" tabindex="0" title="Autonomous DevOps (Click for architecture)">
+              <div class="crt-screen-bezel"><canvas class="crt-screen-canvas"></canvas></div>
+              <span class="crt-monitor-badge badge-devops">Autonomous DevOps</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Credentials & Academic Excellence: Deep Electric Violet Section (Screenshot 3)
+         ========================================================================= -->
+    <section class="violet-section" id="credentials">
+      <div class="site-container">
+        <div class="violet-grid">
+          <!-- Left Editorial Column -->
+          <div class="violet-left">
+            <span class="category-tag category-tag-white">✦ ACADEMIC RIGOR &amp; HONORS</span>
+            <h2 class="violet-heading">
+              Rigorous theory.<br />
+              <span class="highlight-serif">Exceptional</span> craft.<br />
+              Proven at scale.
+            </h2>
+            <p style="color: #E9D5FF; font-size: 1.02rem; line-height: 1.65;">
+              Educated at Australia's flagship institution for Human-Computer Interaction &amp; Agentic Systems, backed by a 9.01/10 distinction in AI, defense-grade certifications, and high-throughput production cloud architectures.
+            </p>
+
+            <!-- 4-Box Credential Metric Counter Strip -->
+            <div class="cred-stats-strip">
+              <div class="cred-stat-item">
+                <span class="stat-number">9.01</span>
+                <span class="stat-label">B.Tech GPA (Top 1%)</span>
+              </div>
+              <div class="cred-stat-item">
+                <span class="stat-number">USyd</span>
+                <span class="stat-label">HCI Scholar Award</span>
+              </div>
+              <div class="cred-stat-item">
+                <span class="stat-number">1st</span>
+                <span class="stat-label">ShellHacks GCP Winner</span>
+              </div>
+              <div class="cred-stat-item">
+                <span class="stat-number">DRDO</span>
+                <span class="stat-label">Defense Certified AI</span>
+              </div>
+            </div>
+
+            <!-- Compact Mascot Pill -->
+            <div class="mascot-pill-compact">
+              <div class="mascot-orb" title="Vineeth AI Mascot">
+                <div class="mascot-eye"></div>
+                <div class="mascot-eye"></div>
+              </div>
+              <span class="mascot-text-compact">Vineeth AI Suite · Autonomous Systems Engineering</span>
+            </div>
+
+            <!-- Action Buttons -->
+            <div style="margin-top: 4px; display: flex; gap: 12px; flex-wrap: wrap;">
+              <a href="#chandelier" class="btn-pill btn-white-filled">
+                Explore The Systems ↗
+              </a>
+              <a href="https://linkedin.com/in/rameshvineeth" target="_blank" rel="noopener noreferrer"
+                class="btn-pill btn-violet-outline">
+                LinkedIn Profile ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: 2x2 Refined Bento Credential Cards -->
+          <div class="violet-right">
+            <!-- Card 1: Master of Computer Science -->
+            <article class="violet-card scroll-reveal">
+              <div>
+                <div class="violet-card-header">
+                  <span class="violet-card-org">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path d="M12 2C6.5 2 4 4.5 4 8v5.5c0 5.2 4.2 8.5 8 9.5c3.8-1 8-4.3 8-9.5V8c0-3.5-2.5-6-8-6z" fill="#E65100"/>
+                      <path d="M12 3.5C7.2 3.5 5.5 5.5 5.5 8.5V13c0 4.2 3.4 7 6.5 7.8c3.1-.8 6.5-3.6 6.5-7.8V8.5c0-3-1.7-5-6.5-5z" fill="#D32F2F"/>
+                      <path d="M7 9h10M12 6v12" stroke="#FFD54F" stroke-width="1.8" stroke-linecap="round"/>
+                      <circle cx="12" cy="7.5" r="1.5" fill="#FFF"/>
+                      <circle cx="9" cy="11.5" r="1.2" fill="#FFF"/>
+                      <circle cx="15" cy="11.5" r="1.2" fill="#FFF"/>
+                      <circle cx="12" cy="15.5" r="1.2" fill="#FFF"/>
+                    </svg>
+                    <span>USYD · POSTGRAD</span>
+                  </span>
+                  <span class="violet-card-badge">2024 – 2026</span>
+                </div>
+                <h3>Master of Computer Science</h3>
+                <div class="violet-card-meta">University of Sydney · HCI Specialization</div>
+                <p>
+                  Specializing in Human-Computer Interaction &amp; Agentic Ergonomics. Researching cognitive bounds, conversational safety, multi-agent coordination, and high-throughput production ML pipelines.
+                </p>
+              </div>
+              <div class="cred-achievement-ribbon">
+                <span class="ribbon-star">★</span>
+                <span>Sydney International Student Award Scholar</span>
+              </div>
+            </article>
+
+            <!-- Card 2: B.Tech in Artificial Intelligence -->
+            <article class="violet-card scroll-reveal">
+              <div>
+                <div class="violet-card-header">
+                  <span class="violet-card-org">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <rect width="24" height="24" rx="4" fill="#0D2E5C"/>
+                      <path d="M12 5l1.8 3.6 4 .6-2.9 2.8.7 4-3.6-1.9-3.6 1.9.7-4-2.9-2.8 4-.6L12 5z" fill="#F59E0B"/>
+                      <path d="M6 18c3-1 9-1 12 0" stroke="#93C5FD" stroke-width="1.4" stroke-linecap="round"/>
+                    </svg>
+                    <span>JAIN UNI · B.TECH</span>
+                  </span>
+                  <span class="violet-card-badge">GPA 9.01 / 10</span>
+                </div>
+                <h3>B.Tech in Artificial Intelligence</h3>
+                <div class="violet-card-meta">Jain University · First Class Distinction</div>
+                <p>
+                  Graduated in the Top 1% class standing. Core rigor in Deep Learning, Statistical Machine Learning, Distributed Algorithms, and Robotics Control. Undergrad thesis on optimizing BERT attention with hybrid convolution heads.
+                </p>
+              </div>
+              <div class="cred-achievement-ribbon">
+                <span class="ribbon-star">★</span>
+                <span>First Class with Distinction · Top 1% Rank</span>
+              </div>
+            </article>
+
+            <!-- Card 3: Global Honors & Defense Certifications -->
+            <article class="violet-card scroll-reveal">
+              <div>
+                <div class="violet-card-header">
+                  <span class="violet-card-org">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4c-2.95 0-5.5 1.7-6.72 4.19C2.33 8.65 0 11.23 0 14.39 0 17.71 2.69 20.4 6 20.4h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z" fill="#4285F4"/>
+                      <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4c-.95 0-1.85.2-2.68.56l5.72 5.72h4.31z" fill="#EA4335"/>
+                      <path d="M9.32 4.56C6.54 5.77 4.5 8.44 4.09 11.63l5.23 5.23 5.72-5.72-5.72-5.72v-.86z" fill="#FBBC05"/>
+                      <path d="M19 14.4h-3.96l-5.72 5.72H19c2.76 0 5-2.24 5-5 0-.25-.02-.5-.06-.74-.8 2.3-2.66 4.02-4.94 4.02z" fill="#34A853"/>
+                    </svg>
+                    <span>HONORS &amp; DEFENSE</span>
+                  </span>
+                  <span class="violet-card-badge">GLOBAL HONORS</span>
+                </div>
+                <h3>Awards &amp; Certifications</h3>
+                <div class="violet-card-meta">International Hackathons &amp; Defense Labs</div>
+                <ul class="violet-card-award-list">
+                  <li class="violet-card-award-item">
+                    <span class="award-icon">🏆</span>
+                    <span><strong>Winner (Google Cloud)</strong> — ShellHacks 2020 by FIU</span>
+                  </li>
+                  <li class="violet-card-award-item">
+                    <span class="award-icon">🛡️</span>
+                    <span><strong>Certified in AI</strong> — DIAT &amp; DRDO, Ministry of Defence</span>
+                  </li>
+                  <li class="violet-card-award-item">
+                    <span class="award-icon">🥇</span>
+                    <span><strong>Gold Medalist</strong> — SUITS Entrepreneurship Program</span>
+                  </li>
+                  <li class="violet-card-award-item">
+                    <span class="award-icon">🚀</span>
+                    <span><strong>Hacktoberfest Super Contributor</strong> — 2022 &amp; 2023</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="cred-achievement-ribbon" style="background: linear-gradient(90deg, rgba(56, 189, 248, 0.16) 0%, rgba(56, 189, 248, 0.05) 100%); border-color: rgba(56, 189, 248, 0.35); color: #7DD3FC;">
+                <span class="ribbon-star" style="color: #38BDF8;">✦</span>
+                <span>Defense Certified &amp; Global ShellHacks Champion</span>
+              </div>
+            </article>
+
+            <!-- Card 4: Leadership & Production Tooling -->
+            <article class="violet-card scroll-reveal">
+              <div>
+                <div class="violet-card-header">
+                  <span class="violet-card-org">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <rect width="24" height="24" rx="4" fill="#18181B"/>
+                      <path d="M7 8l-4 4 4 4M17 8l4 4-4 4M14 5l-4 14" stroke="#4ADE80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>LEADERSHIP &amp; STACK</span>
+                  </span>
+                  <span class="violet-card-badge">200+ MENTORED</span>
+                </div>
+                <h3>AI/ML Lead &amp; Core Stack</h3>
+                <div class="violet-card-meta">Google Developer Student Club · JU Chapter</div>
+                <p>
+                  Guided 200+ engineers in deep learning architectures, orchestrated ML hackathons, and deployed containerized NLP student support bots.
+                </p>
+              </div>
+              <div>
+                <div class="violet-card-tags">
+                  <span class="violet-tech-pill">Python</span>
+                  <span class="violet-tech-pill">TypeScript</span>
+                  <span class="violet-tech-pill">PyTorch</span>
+                  <span class="violet-tech-pill">LangGraph</span>
+                  <span class="violet-tech-pill">FastAPI</span>
+                  <span class="violet-tech-pill">Docker</span>
+                  <span class="violet-tech-pill">AWS</span>
+                  <span class="violet-tech-pill">GCP</span>
+                </div>
+                <div class="cred-achievement-ribbon" style="background: linear-gradient(90deg, rgba(74, 222, 128, 0.14) 0%, rgba(74, 222, 128, 0.04) 100%); border-color: rgba(74, 222, 128, 0.3); color: #86EFAC; margin-top: 14px;">
+                  <span class="ribbon-star" style="color: #4ADE80;">●</span>
+                  <span>Production Stack &amp; Community Architecture</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <!-- Botanical Floral Bed at Base of Violet Section (Screenshot 3) -->
+      <div class="violet-floral-bed" aria-hidden="true">
+        <svg class="violet-floral-svg" viewBox="0 0 1440 180" fill="none" xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="xMidYMax slice">
+          <!-- Foliage Stems Base -->
+          <path class="floral-foliage-base"
+            d="M 0 180 C 120 100, 240 160, 360 90 C 480 150, 600 110, 720 140 C 840 90, 960 160, 1080 110 C 1200 150, 1320 80, 1440 130 L 1440 180 Z"
+            fill="#4320A8" />
+
+          <!-- Flower 1: Purple Bloom (x=60, y=140) -->
+          <g class="v-meadow-flower flower-purple" data-flower-idx="0" role="button" tabindex="0" aria-label="Meadow Lilac" style="transform-origin: 60px 140px; --sway-deg: 3.2deg; --duration: 3.5s; --delay: -0.2s;">
+            <circle cx="60" cy="140" r="24" fill="#B388FF" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="60" cy="140" r="10" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 2: Magenta Peony & Lime Leaf (x=120, y=130) -->
+          <g class="v-meadow-flower flower-magenta" data-flower-idx="1" role="button" tabindex="0" aria-label="Meadow Peony" style="transform-origin: 120px 130px; --sway-deg: -3.5deg; --duration: 3.8s; --delay: -0.9s;">
+            <polygon points="90,140 105,125 100,145" fill="#A3E635" stroke="#251352" stroke-width="2" class="v-flower-leaf" />
+            <circle cx="120" cy="130" r="32" fill="#E02475" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="120" cy="130" r="18" fill="#F472B6" stroke="#251352" stroke-width="2" class="v-flower-inner" />
+            <circle cx="120" cy="130" r="9" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 3: Purple Bloom (x=180, y=120) -->
+          <g class="v-meadow-flower flower-purple" data-flower-idx="2" role="button" tabindex="0" aria-label="Meadow Cosmos" style="transform-origin: 180px 120px; --sway-deg: 2.8deg; --duration: 4.1s; --delay: -1.6s;">
+            <circle cx="180" cy="120" r="28" fill="#B388FF" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="180" cy="120" r="11" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 4: Magenta Peony & Lime Leaf (x=250, y=135) -->
+          <g class="v-meadow-flower flower-magenta" data-flower-idx="3" role="button" tabindex="0" aria-label="Meadow Poppy" style="transform-origin: 250px 135px; --sway-deg: -3.2deg; --duration: 3.6s; --delay: -2.3s;">
+            <polygon points="210,130 230,115 220,135" fill="#A3E635" stroke="#251352" stroke-width="2" class="v-flower-leaf" />
+            <circle cx="250" cy="135" r="30" fill="#E02475" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="250" cy="135" r="16" fill="#F472B6" stroke="#251352" stroke-width="2" class="v-flower-inner" />
+            <circle cx="250" cy="135" r="8" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 5: Purple Bloom (x=320, y=130) -->
+          <g class="v-meadow-flower flower-purple" data-flower-idx="4" role="button" tabindex="0" aria-label="Meadow Bellflower" style="transform-origin: 320px 130px; --sway-deg: 3deg; --duration: 3.9s; --delay: -0.5s;">
+            <circle cx="320" cy="130" r="22" fill="#B388FF" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="320" cy="130" r="9" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 6: Magenta Peony & Lime Leaf (x=390, y=125) -->
+          <g class="v-meadow-flower flower-magenta" data-flower-idx="5" role="button" tabindex="0" aria-label="Meadow Wild Rose" style="transform-origin: 390px 125px; --sway-deg: -3.6deg; --duration: 4.2s; --delay: -1.2s;">
+            <polygon points="360,135 375,120 370,140" fill="#A3E635" stroke="#251352" stroke-width="2" class="v-flower-leaf" />
+            <circle cx="390" cy="125" r="34" fill="#E02475" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="390" cy="125" r="19" fill="#F472B6" stroke="#251352" stroke-width="2" class="v-flower-inner" />
+            <circle cx="390" cy="125" r="10" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 7: Purple Bloom (x=460, y=110) -->
+          <g class="v-meadow-flower flower-purple" data-flower-idx="6" role="button" tabindex="0" aria-label="Meadow Windflower" style="transform-origin: 460px 110px; --sway-deg: 3.4deg; --duration: 3.7s; --delay: -2.0s;">
+            <circle cx="460" cy="110" r="26" fill="#B388FF" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="460" cy="110" r="11" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 8: Magenta Peony & Lime Leaf (x=540, y=130) -->
+          <g class="v-meadow-flower flower-magenta" data-flower-idx="7" role="button" tabindex="0" aria-label="Meadow Blossom" style="transform-origin: 540px 130px; --sway-deg: -2.9deg; --duration: 3.5s; --delay: -0.7s;">
+            <polygon points="500,120 520,105 510,125" fill="#A3E635" stroke="#251352" stroke-width="2" class="v-flower-leaf" />
+            <circle cx="540" cy="130" r="32" fill="#E02475" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="540" cy="130" r="17" fill="#F472B6" stroke="#251352" stroke-width="2" class="v-flower-inner" />
+            <circle cx="540" cy="130" r="9" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 9: Purple Bloom (x=620, y=135) -->
+          <g class="v-meadow-flower flower-purple" data-flower-idx="8" role="button" tabindex="0" aria-label="Meadow Orchid" style="transform-origin: 620px 135px; --sway-deg: 3.1deg; --duration: 4.0s; --delay: -1.5s;">
+            <circle cx="620" cy="135" r="25" fill="#B388FF" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="620" cy="135" r="10" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 10: Centerpiece Giant Magenta Peony & Lime Leaf (x=700, y=115) -->
+          <g class="v-meadow-flower flower-magenta" data-flower-idx="9" role="button" tabindex="0" aria-label="Centerpiece Peony" style="transform-origin: 700px 115px; --sway-deg: -3.8deg; --duration: 4.3s; --delay: -2.2s;">
+            <polygon points="660,130 680,115 670,135" fill="#A3E635" stroke="#251352" stroke-width="2" class="v-flower-leaf" />
+            <circle cx="700" cy="115" r="36" fill="#E02475" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="700" cy="115" r="20" fill="#F472B6" stroke="#251352" stroke-width="2" class="v-flower-inner" />
+            <circle cx="700" cy="115" r="11" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 11: Purple Bloom (x=780, y=120) -->
+          <g class="v-meadow-flower flower-purple" data-flower-idx="10" role="button" tabindex="0" aria-label="Meadow Cosmos" style="transform-origin: 780px 120px; --sway-deg: 2.7deg; --duration: 3.6s; --delay: -0.4s;">
+            <circle cx="780" cy="120" r="30" fill="#B388FF" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="780" cy="120" r="12" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 12: Magenta Peony & Lime Leaf (x=860, y=130) -->
+          <g class="v-meadow-flower flower-magenta" data-flower-idx="11" role="button" tabindex="0" aria-label="Meadow Rose" style="transform-origin: 860px 130px; --sway-deg: -3.4deg; --duration: 3.9s; --delay: -1.1s;">
+            <polygon points="820,125 840,110 830,130" fill="#A3E635" stroke="#251352" stroke-width="2" class="v-flower-leaf" />
+            <circle cx="860" cy="130" r="34" fill="#E02475" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="860" cy="130" r="18" fill="#F472B6" stroke="#251352" stroke-width="2" class="v-flower-inner" />
+            <circle cx="860" cy="130" r="10" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 13: Purple Bloom (x=940, y=130) -->
+          <g class="v-meadow-flower flower-purple" data-flower-idx="12" role="button" tabindex="0" aria-label="Meadow Chamomile" style="transform-origin: 940px 130px; --sway-deg: 3.3deg; --duration: 4.1s; --delay: -1.9s;">
+            <circle cx="940" cy="130" r="26" fill="#B388FF" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="940" cy="130" r="9" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 14: Magenta Peony & Lime Leaf (x=1020, y=125) -->
+          <g class="v-meadow-flower flower-magenta" data-flower-idx="13" role="button" tabindex="0" aria-label="Meadow Lily" style="transform-origin: 1020px 125px; --sway-deg: -3.1deg; --duration: 3.5s; --delay: -0.6s;">
+            <polygon points="980,130 1000,115 990,135" fill="#A3E635" stroke="#251352" stroke-width="2" class="v-flower-leaf" />
+            <circle cx="1020" cy="125" r="32" fill="#E02475" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="1020" cy="125" r="17" fill="#F472B6" stroke="#251352" stroke-width="2" class="v-flower-inner" />
+            <circle cx="1020" cy="125" r="10" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 15: Purple Bloom (x=1100, y=115) -->
+          <g class="v-meadow-flower flower-purple" data-flower-idx="14" role="button" tabindex="0" aria-label="Meadow Daisy" style="transform-origin: 1100px 115px; --sway-deg: 2.9deg; --duration: 3.8s; --delay: -1.4s;">
+            <circle cx="1100" cy="115" r="28" fill="#B388FF" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="1100" cy="115" r="11" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 16: Magenta Peony & Lime Leaf (x=1180, y=130) -->
+          <g class="v-meadow-flower flower-magenta" data-flower-idx="15" role="button" tabindex="0" aria-label="Meadow Tulip" style="transform-origin: 1180px 130px; --sway-deg: -3.5deg; --duration: 4.2s; --delay: -2.1s;">
+            <polygon points="1140,120 1160,105 1150,125" fill="#A3E635" stroke="#251352" stroke-width="2" class="v-flower-leaf" />
+            <circle cx="1180" cy="130" r="36" fill="#E02475" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="1180" cy="130" r="20" fill="#F472B6" stroke="#251352" stroke-width="2" class="v-flower-inner" />
+            <circle cx="1180" cy="130" r="12" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 17: Purple Bloom (x=1260, y=135) -->
+          <g class="v-meadow-flower flower-purple" data-flower-idx="16" role="button" tabindex="0" aria-label="Meadow Primrose" style="transform-origin: 1260px 135px; --sway-deg: 3deg; --duration: 3.7s; --delay: -0.8s;">
+            <circle cx="1260" cy="135" r="24" fill="#B388FF" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="1260" cy="135" r="9" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 18: Magenta Peony & Lime Leaf (x=1330, y=125) -->
+          <g class="v-meadow-flower flower-magenta" data-flower-idx="17" role="button" tabindex="0" aria-label="Meadow Aster" style="transform-origin: 1330px 125px; --sway-deg: -3.2deg; --duration: 4.0s; --delay: -1.7s;">
+            <polygon points="1300,135 1315,120 1310,140" fill="#A3E635" stroke="#251352" stroke-width="2" class="v-flower-leaf" />
+            <circle cx="1330" cy="125" r="30" fill="#E02475" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="1330" cy="125" r="17" fill="#F472B6" stroke="#251352" stroke-width="2" class="v-flower-inner" />
+            <circle cx="1330" cy="125" r="10" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Flower 19: Purple Bloom (x=1380, y=120) -->
+          <g class="v-meadow-flower flower-purple" data-flower-idx="18" role="button" tabindex="0" aria-label="Meadow Clover" style="transform-origin: 1380px 120px; --sway-deg: 2.8deg; --duration: 3.6s; --delay: -2.4s;">
+            <circle cx="1380" cy="120" r="28" fill="#B388FF" stroke="#251352" stroke-width="2.5" class="v-flower-petal" />
+            <circle cx="1380" cy="120" r="11" fill="#FBBF24" stroke="#251352" stroke-width="2" class="v-flower-center" />
+          </g>
+
+          <!-- Smooth rolling ground transition into publications section -->
+          <path d="M 0 156 C 180 138, 360 168, 540 146 C 720 168, 900 138, 1080 165 C 1260 144, 1380 158, 1440 152 L 1440 180 L 0 180 Z" fill="#FCF9F5" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Empirical Research & Publications Section with Animated Satellite Dish
+         ========================================================================= -->
+    <section class="publications-section" id="publications">
+      <div class="site-container">
+        <!-- Split Header: Editorial Copy + Animated Satellite Dish & Constellation -->
+        <div class="publications-header-split">
+          <div>
+            <span class="category-tag">✦ EMPIRICAL RESEARCH &amp; PUBLICATIONS</span>
+            <h2 style="font-size: clamp(2rem, 3.5vw, 3.4rem); color: var(--purple-deep); margin: 10px 0 16px; line-height: 1.12;">
+              Rigorous research.<br />
+              <span class="highlight-serif-purple">Peer-reviewed</span> depth.
+            </h2>
+            <p class="font-serif" style="font-size: 1.15rem; font-style: italic; color: var(--purple-muted); max-width: 580px; line-height: 1.6;">
+              Translating high-dimensional machine learning hypotheses into peer-reviewed science. Published research spanning conversational NLP dialog safety bounds, generative adversarial super-resolution, and neural computer vision architectures.
+            </p>
+
+            <div class="pub-stats-badges">
+              <span class="pub-stat-pill">
+                <span class="pub-stat-dot"></span>
+                <span>3 Peer-Reviewed Papers</span>
+              </span>
+              <span class="pub-stat-pill">
+                <span class="pub-stat-dot" style="background: #38BDF8;"></span>
+                <span>IEEE Xplore Indexed</span>
+              </span>
+              <span class="pub-stat-pill">
+                <span class="pub-stat-dot" style="background: #F59E0B;"></span>
+                <span>290+ Academic Reads · 7 Citations</span>
+              </span>
+            </div>
+          </div>
+
+          <!-- Animated Retro Satellite Dish & Constellation Nebula Artwork -->
+          <div class="satellite-visual-container" aria-label="Animated Satellite Dish &amp; Nebula Constellation">
+            <svg class="satellite-dish-artwork" viewBox="0 0 520 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+              <title>Retro Satellite Dish listening to Constellation Nebula</title>
+              <defs>
+                <linearGradient id="dishInnerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#F3EFFC" />
+                  <stop offset="60%" stop-color="#DDD6FE" />
+                  <stop offset="100%" stop-color="#C4B5FD" />
+                </linearGradient>
+                <linearGradient id="nebulaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#341A6E" />
+                  <stop offset="100%" stop-color="#1A0C38" />
+                </linearGradient>
+                <filter id="starGlowFilter" x="-50%" y="-50%" width="200%" height="200%">
+                  <feGaussianBlur stdDeviation="3" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+              </defs>
+
+              <!-- Animated Signal Radio Waves between Dish & Nebula -->
+              <g class="radio-waves-group">
+                <path class="radio-wave wave-1" d="M 230 115 Q 215 95 210 75" stroke="#8B5CF6" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5 5" />
+                <path class="radio-wave wave-2" d="M 245 105 Q 225 80 220 55" stroke="#EC4899" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5 5" />
+                <path class="radio-wave wave-3" d="M 260 95 Q 235 65 230 35" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5 5" />
+              </g>
+
+              <!-- Cosmic Nebula Scalloped Cloud -->
+              <g class="nebula-cloud-group">
+                <path class="nebula-bg-cloud" d="
+                  M 205 35
+                  C 215 15, 235 15, 245 25
+                  C 260 15, 280 25, 285 45
+                  C 300 45, 310 65, 305 85
+                  C 320 100, 315 125, 295 135
+                  C 295 155, 275 165, 255 160
+                  C 240 175, 215 170, 205 155
+                  C 185 165, 165 150, 165 130
+                  C 145 120, 145 95, 160 80
+                  C 150 60, 170 40, 190 45
+                  Z"
+                  fill="url(#nebulaGrad)" stroke="#5236AB" stroke-width="2.5" />
+
+                <!-- Constellation Neural Branching Dendrites -->
+                <g class="constellation-lines" stroke="#A78BFA" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+                  <line x1="235" y1="95" x2="210" y2="65" />
+                  <line x1="210" y1="65" x2="185" y2="60" />
+                  <line x1="210" y1="65" x2="195" y2="90" />
+                  <line x1="235" y1="95" x2="265" y2="70" />
+                  <line x1="265" y1="70" x2="280" y2="55" />
+                  <line x1="265" y1="70" x2="285" y2="90" />
+                  <line x1="235" y1="95" x2="245" y2="135" />
+                  <line x1="245" y1="135" x2="220" y2="145" />
+                  <line x1="245" y1="135" x2="270" y2="140" />
+                  <line x1="195" y1="90" x2="175" y2="105" />
+                  <line x1="175" y1="105" x2="170" y2="135" />
+                </g>
+
+                <!-- Star Nodes (Pulsing Multi-colored) -->
+                <circle cx="235" cy="95" r="5" fill="#FFFFFF" class="pulse-star star-white" />
+                <circle cx="185" cy="60" r="4.5" fill="#FB923C" class="pulse-star star-orange" filter="url(#starGlowFilter)" />
+                <circle cx="210" cy="65" r="4" fill="#4ADE80" class="pulse-star star-green" filter="url(#starGlowFilter)" />
+                <circle cx="195" cy="90" r="4.5" fill="#EC4899" class="pulse-star star-pink" filter="url(#starGlowFilter)" />
+                <circle cx="175" cy="105" r="3.5" fill="#FBBF24" class="pulse-star star-amber" filter="url(#starGlowFilter)" />
+                <circle cx="170" cy="135" r="4" fill="#38BDF8" class="pulse-star star-blue" filter="url(#starGlowFilter)" />
+                <circle cx="220" cy="145" r="4.5" fill="#A855F7" class="pulse-star star-purple" filter="url(#starGlowFilter)" />
+                <circle cx="270" cy="140" r="4" fill="#F43F5E" class="pulse-star star-red" filter="url(#starGlowFilter)" />
+                <circle cx="285" cy="90" r="4.5" fill="#38BDF8" class="pulse-star star-blue" filter="url(#starGlowFilter)" />
+                <circle cx="280" cy="55" r="4" fill="#FB923C" class="pulse-star star-orange" filter="url(#starGlowFilter)" />
+                <circle cx="265" cy="70" r="3.5" fill="#4ADE80" class="pulse-star star-green" filter="url(#starGlowFilter)" />
+              </g>
+
+              <!-- Background Terrain Mound -->
+              <path d="M 180 375 Q 260 345 350 375 L 480 375 L 480 395 L 160 395 Z" fill="#7C3AED" opacity="0.3" />
+              <path d="M 230 370 Q 280 350 320 375 Z" fill="#5B21B6" opacity="0.4" />
+
+              <!-- Secondary Background Mini Satellite Dish -->
+              <g class="mini-satellite-dish" transform="translate(290, 290) scale(0.45)">
+                <ellipse cx="60" cy="60" rx="55" ry="38" transform="rotate(-40 60 60)" fill="#DDD6FE" stroke="#3D1C8C" stroke-width="3" />
+                <path d="M 30 80 Q 60 60 90 40" fill="none" stroke="#C4B5FD" stroke-width="2" />
+                <line x1="60" y1="60" x2="10" y2="10" stroke="#3D1C8C" stroke-width="3.5" />
+                <circle cx="10" cy="10" r="5" fill="#7C3AED" />
+                <path d="M 60 95 L 75 140 L 45 140 Z" fill="#C4B5FD" stroke="#3D1C8C" stroke-width="3" />
+              </g>
+
+              <!-- Main Articulated Satellite Dish -->
+              <g class="main-satellite-assembly">
+                <!-- Base Plate & Ground Mount -->
+                <path d="M 255 375 L 475 375 L 465 355 L 285 355 Z" fill="#EDE9FE" stroke="#3D1C8C" stroke-width="3" stroke-linejoin="round" />
+                <!-- Base Feet Pads -->
+                <path d="M 280 375 Q 295 365 310 375 Z" fill="#FFFFFF" stroke="#3D1C8C" stroke-width="2.5" />
+                <path d="M 370 375 Q 385 365 400 375 Z" fill="#FFFFFF" stroke="#3D1C8C" stroke-width="2.5" />
+                <path d="M 435 375 Q 445 365 455 375 Z" fill="#FFFFFF" stroke="#3D1C8C" stroke-width="2.5" />
+                <!-- Control Hatch & LED Ports -->
+                <rect x="400" y="358" width="16" height="14" rx="2" fill="#8B5CF6" stroke="#3D1C8C" stroke-width="2" />
+                <circle cx="392" cy="365" r="2.5" fill="#38BDF8" />
+                <circle cx="392" cy="371" r="2.5" fill="#F43F5E" />
+
+                <!-- Robotic Arm Turret Hub -->
+                <rect x="382" y="325" width="30" height="30" rx="5" fill="#C4B5FD" stroke="#3D1C8C" stroke-width="3" />
+                <circle cx="397" cy="340" r="7" fill="#7C3AED" stroke="#3D1C8C" stroke-width="2.5" />
+                <circle cx="397" cy="340" r="2.5" fill="#FFFFFF" />
+
+                <!-- Lower Arm Diagonal Segment -->
+                <path d="M 395 330 L 445 255 L 425 245 L 380 325 Z" fill="#DDD6FE" stroke="#3D1C8C" stroke-width="3" stroke-linejoin="round" />
+                <circle cx="435" cy="250" r="8" fill="#7C3AED" stroke="#3D1C8C" stroke-width="2.5" />
+                <circle cx="435" cy="250" r="3" fill="#FFFFFF" />
+
+                <!-- Upper Arm Segment -->
+                <path d="M 435 250 L 395 190 L 375 200 L 420 260 Z" fill="#C4B5FD" stroke="#3D1C8C" stroke-width="3" stroke-linejoin="round" />
+                <circle cx="385" cy="195" r="8" fill="#7C3AED" stroke="#3D1C8C" stroke-width="2.5" />
+
+                <!-- Hydraulic Piston Cylinder & Ram -->
+                <line x1="397" y1="340" x2="430" y2="280" stroke="#3D1C8C" stroke-width="5" stroke-linecap="round" />
+                <line x1="415" y1="230" x2="370" y2="245" stroke="#3D1C8C" stroke-width="4.5" stroke-linecap="round" />
+                <circle cx="370" cy="245" r="6" fill="#8B5CF6" stroke="#3D1C8C" stroke-width="2" />
+
+                <!-- Dish Cradle Bracket -->
+                <path d="M 360 210 L 330 220 L 340 240 L 375 225 Z" fill="#7C3AED" stroke="#3D1C8C" stroke-width="2.5" />
+                <circle cx="355" cy="225" r="5" fill="#FACC15" stroke="#3D1C8C" stroke-width="1.8" />
+
+                <!-- Parabolic Dish Body (Rotated & Aimed at Nebula) -->
+                <g class="dish-reflector-group">
+                  <!-- Dish Outer Parabolic Shell -->
+                  <ellipse cx="320" cy="165" rx="95" ry="62" transform="rotate(-38 320 165)" fill="url(#dishInnerGrad)" stroke="#3D1C8C" stroke-width="3.5" />
+
+                  <!-- Deep Volumetric Shading Arc inside Lower Bowl -->
+                  <path d="M 245 225 C 275 245, 335 240, 385 210 C 370 190, 310 195, 275 190 Z" fill="#4C28A6" opacity="0.6" stroke="#3D1C8C" stroke-width="1.5" />
+
+                  <!-- Perspective Grid Lines on Dish Surface -->
+                  <path d="M 255 185 Q 320 160 380 135" fill="none" stroke="#C4B5FD" stroke-width="1.8" />
+                  <path d="M 270 205 Q 330 180 390 155" fill="none" stroke="#C4B5FD" stroke-width="1.8" />
+                  <path d="M 285 225 Q 345 200 400 175" fill="none" stroke="#C4B5FD" stroke-width="1.8" />
+                  <path d="M 285 140 Q 305 185 320 220" fill="none" stroke="#C4B5FD" stroke-width="1.8" />
+                  <path d="M 320 120 Q 340 165 355 200" fill="none" stroke="#C4B5FD" stroke-width="1.8" />
+                  <path d="M 355 100 Q 375 145 390 180" fill="none" stroke="#C4B5FD" stroke-width="1.8" />
+
+                  <!-- Outer Rim Lip Highlight -->
+                  <ellipse cx="320" cy="165" rx="93" ry="60" transform="rotate(-38 320 165)" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.8" />
+
+                  <!-- Feed Horn Tripod Struts -->
+                  <line x1="265" y1="130" x2="240" y2="85" stroke="#3D1C8C" stroke-width="3.5" stroke-linecap="round" />
+                  <line x1="315" y1="95" x2="240" y2="85" stroke="#3D1C8C" stroke-width="3.5" stroke-linecap="round" />
+                  <line x1="330" y1="185" x2="240" y2="85" stroke="#3D1C8C" stroke-width="3.5" stroke-linecap="round" />
+
+                  <!-- Receiver Feed Horn / Sub-reflector Pod -->
+                  <path d="M 248 80 L 232 90 L 225 78 L 241 68 Z" fill="#EDE9FE" stroke="#3D1C8C" stroke-width="2.5" stroke-linejoin="round" />
+                  <ellipse cx="230" cy="80" rx="6" ry="10" transform="rotate(-38 230 80)" fill="#7C3AED" stroke="#3D1C8C" stroke-width="2" />
+                  <circle cx="230" cy="80" r="3" fill="#FACC15" />
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <!-- 3 Peer-Reviewed Publication Cards -->
+        <div class="publications-grid">
+          <!-- Publication 1: IEEE OTCON-2023 -->
+          <article class="pub-card scroll-reveal">
+            <div>
+              <div class="pub-card-header">
+                <span class="pub-venue-badge">IEEE · OTCON-2023</span>
+                <span class="pub-status-badge">
+                  <span style="width:6px; height:6px; border-radius:50%; background:#10B981;"></span>
+                  PEER-REVIEWED
+                </span>
+              </div>
+              <h3 class="pub-title">A Proposed Chatbot Psykh: Personal Therapist Using RASA Framework</h3>
+              <div class="pub-authors-row">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+                <span>Vineeth Ramesh, with co-authors</span>
+              </div>
+              <p class="pub-abstract">
+                Published peer-reviewed research formulating an affective mental health conversational agent utilizing the RASA NLU pipeline, hierarchical dialogue state tracking, and emotional sentiment bounds to deliver safe, deterministic multi-turn user therapeutic interactions.
+              </p>
+              <div class="pub-metrics-strip">
+                ✦ 290+ Reads · 7 Citations · IEEE Document ID: 10114025
+              </div>
+              <div class="pub-tags">
+                <span class="pub-tag">RASA Framework</span>
+                <span class="pub-tag">Conversational NLP</span>
+                <span class="pub-tag">Sentiment Polarity</span>
+                <span class="pub-tag">Dialogue Trees</span>
+                <span class="pub-tag">Safety Bounds</span>
+              </div>
+            </div>
+            <div class="pub-actions">
+              <a href="https://ieeexplore.ieee.org/document/10114025" target="_blank" rel="noopener noreferrer" class="btn-pub-link">
+                Show publication ↗
+              </a>
+            </div>
+          </article>
+
+          <!-- Publication 2: CSA-2022 by ASSECOM / Grenze Magazine -->
+          <article class="pub-card scroll-reveal">
+            <div>
+              <div class="pub-card-header">
+                <span class="pub-venue-badge">CSA-2022 · GRENZE</span>
+                <span class="pub-status-badge">
+                  <span style="width:6px; height:6px; border-radius:50%; background:#10B981;"></span>
+                  PEER-REVIEWED
+                </span>
+              </div>
+              <h3 class="pub-title">Food Image Recognition and Cuisine Recommendation using Neural Networks</h3>
+              <div class="pub-authors-row">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+                <span>Vineeth Ramesh, with co-authors</span>
+              </div>
+              <p class="pub-abstract">
+                Published in Grenze International Journal of Engineering and Technology (GIJET). Formulated a multi-tier deep neural network pipeline combining multi-class food dish visual recognition with content-based cuisine recommendation, optimizing dietary feature projections and taste clustering accuracy.
+              </p>
+              <div class="pub-metrics-strip">
+                ✦ Grenze GIJET Journal · Abstract ID: 1145 · CSA-2022
+              </div>
+              <div class="pub-tags">
+                <span class="pub-tag">Deep Neural Networks</span>
+                <span class="pub-tag">Computer Vision</span>
+                <span class="pub-tag">Multi-Class CNN</span>
+                <span class="pub-tag">Cuisine Recommendation</span>
+                <span class="pub-tag">Feature Embeddings</span>
+              </div>
+            </div>
+            <div class="pub-actions">
+              <a href="https://thegrenze.com/index.php?display=page&view=journalabstract&absid=1145&id=8" target="_blank" rel="noopener noreferrer" class="btn-pub-link">
+                Show publication ↗
+              </a>
+            </div>
+          </article>
+
+          <!-- Publication 3: IJARESM (GAN Super-Resolution) -->
+          <article class="pub-card scroll-reveal">
+            <div>
+              <div class="pub-card-header">
+                <span class="pub-venue-badge">IJARESM JOURNAL</span>
+                <span class="pub-status-badge">
+                  <span style="width:6px; height:6px; border-radius:50%; background:#10B981;"></span>
+                  PEER-REVIEWED
+                </span>
+              </div>
+              <h3 class="pub-title">Meliorated Image Upscaler using Generative Adversarial Network</h3>
+              <div class="pub-authors-row">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+                <span>Vineeth Ramesh, with co-authors</span>
+              </div>
+              <p class="pub-abstract">
+                Published in International Journal of All Research Education and Scientific Methods (IJARESM). Engineered an enhanced Generative Adversarial Network (GAN) architecture for image super-resolution, leveraging compound perceptual loss and deep residual dense backbones to eliminate high-frequency distortion and restore edge fidelity.
+              </p>
+              <div class="pub-metrics-strip">
+                ✦ IJARESM Vol. 10 · High-Resolution GAN Reconstruction
+              </div>
+              <div class="pub-tags">
+                <span class="pub-tag">Generative Adversarial Nets</span>
+                <span class="pub-tag">Super-Resolution</span>
+                <span class="pub-tag">Perceptual Loss</span>
+                <span class="pub-tag">PSNR/SSIM Benchmark</span>
+                <span class="pub-tag">PyTorch</span>
+              </div>
+            </div>
+            <div class="pub-actions">
+              <a href="https://www.ijaresm.com/meliorated-image-upscaler-using-generative-adversarial-network" target="_blank" rel="noopener noreferrer" class="btn-pub-link">
+                Show publication ↗
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Giant Outro "chat today" (Screenshot 5)
+         ========================================================================= -->
+    <section class="outro-section" id="contact">
+      <div class="site-container">
+        <div class="outro-banner-wrap">
+          <!-- Floating Pastel Pink Circular Blobs (Screenshot 5) -->
+          <div class="pink-blob-bg-left float-slow"></div>
+          <div class="pink-blob-bg-right float-slow" style="animation-delay: -3s;"></div>
+
+          <!-- Giant Typography Cutout -->
+          <div class="outro-giant-text">
+            <span class="floral-text-clip">chat today</span>
+          </div>
+
+          <!-- Editorial Serif Byline -->
+          <p class="outro-byline">
+            Book a chat or dispatch an inquiry to collaborate with Vineeth on high-throughput AI systems.
+          </p>
+
+          <!-- Contact & Action Hub -->
+          <div class="contact-hub-bar">
+            <!-- Calendly Direct Booking -->
+            <a href="https://calendly.com/work-vineethramesh/30min" target="_blank" rel="noopener noreferrer"
+              class="btn-pill btn-purple-filled">
+              <span>🗓️ Book a Chat ↗</span>
+            </a>
+
+            <!-- 1-Click Copy Email -->
+            <button class="btn-pill btn-frosted action-copy-email">
+              <span>work.vineethramesh@gmail.com</span>
+              <span
+                style="font-size: 0.75rem; background: rgba(82,54,171,0.12); padding: 2px 6px; border-radius: 4px;">COPY</span>
+            </button>
+
+            <!-- Phone Direct Link -->
+            <a href="tel:+610449182009" class="btn-pill btn-frosted">
+              <span>📞 (+61) 0449182009</span>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com/in/rameshvineeth" target="_blank" rel="noopener noreferrer"
+              class="btn-pill btn-frosted">
+              <span>LinkedIn ↗</span>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/rameshvineeth" target="_blank" rel="noopener noreferrer"
+              class="btn-pill btn-frosted">
+              <span>GitHub ↗</span>
+            </a>
+
+            </div>
+
+          <!-- Real-time Inquiry & Message Dispatch Terminal -->
+          <div class="dispatch-terminal-wrap">
+            <form id="quick-inquiry-form" class="dispatch-form" action="https://formspree.io/f/mnpqgygz" method="POST">
+              <input type="hidden" name="_subject" value="⚡ New Portfolio Dispatch for Vineeth Ramesh" />
+              <div class="dispatch-input-row">
+                <input type="text" id="dispatch-query" name="message" placeholder="Your message, project vision, or role spec..." required />
+                <input type="email" id="dispatch-email" name="email" placeholder="Your reply-to email address..." required />
+              </div>
+              <div class="dispatch-footer-row">
+                <div class="dispatch-routing-badge">
+                  <span class="pulse-dot" aria-hidden="true">●</span>
+                  <span class="dispatch-routing-text">Dispatches directly to <strong class="dispatch-email-target">work.vineethramesh@gmail.com</strong></span>
+                </div>
+                <button type="submit" id="dispatch-submit-btn" class="btn-pill btn-purple-filled btn-sm" style="white-space: nowrap; padding: 10px 22px;">
+                  <span id="dispatch-btn-label">Send Dispatch ✉️</span>
+                </button>
+              </div>
+            </form>
+            <div id="inquiry-feedback" style="display: none; margin-top: 14px;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       Site Footer
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="site-container footer-content">
+      <div>
+        <span style="font-weight: 700; color: var(--purple-deep);">Vineeth Ramesh</span>
+        <span>· Applied AI Engineer</span>
+      </div>
+      <div style="font-family: var(--font-mono); font-size: 0.75rem;">
+        Coordinates: -33.8688° S, 151.2093° E · Sydney, Australia (Subclass 485)
+      </div>
+      <div>
+        <span>&copy; 2026 Vineeth Ramesh. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       Native Accessible Modal Dialog (<dialog>)
+       ========================================================================= -->
+  <dialog class="project-modal" id="project-modal" aria-labelledby="modal-title">
+    <div class="modal-inner-card">
+      <button class="modal-close-btn" id="project-modal-close" aria-label="Close dialog">×</button>
+      <div id="project-modal-body">
+        <!-- Injected dynamically via projects-modal.js -->
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Floating Toast Notification -->
+  <div class="toast-notification" id="toast-notification">
+    Copied to clipboard!
+  </div>
+
+  <!-- Main JavaScript Controller -->
+  <script type="module" src="/src/scripts/main.js"></script>
+</body>
+
+</html>

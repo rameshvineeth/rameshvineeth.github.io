@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Outer Border Frame with refined corner radius -->
+  <path fill="currentColor" fill-rule="evenodd" d="M8 3h84a5 5 0 0 1 5 5v84a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5zm3 5.5h78a2.5 2.5 0 0 1 2.5 2.5v78a2.5 2.5 0 0 1-2.5 2.5H11a2.5 2.5 0 0 1-2.5-2.5V11a2.5 2.5 0 0 1 2.5-2.5z" />
+  <!-- Inner Core Plate with 9 Bold Cutout Apertures -->
+  <path fill="currentColor" fill-rule="evenodd" d="M14 14h72v72H14ZM21.5 21.5h13.5v13.5H21.5ZM43.25 21.5h13.5v13.5H43.25ZM65 21.5h13.5v13.5H65ZM21.5 43.25h13.5v13.5H21.5ZM43.25 43.25h13.5v13.5H43.25ZM65 43.25h13.5v13.5H65ZM21.5 65h13.5v13.5H21.5ZM43.25 65h13.5v13.5H43.25ZM65 65h13.5v13.5H65Z" />
+</svg>

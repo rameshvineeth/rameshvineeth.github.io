@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Rounded Brand Canvas -->
+  <rect width="100" height="100" rx="20" fill="#251352" />
+  <!-- Outer Border Frame -->
+  <path fill="#FCF9F5" fill-rule="evenodd" d="M14 10h72a4 4 0 0 1 4 4v72a4 4 0 0 1-4 4H14a4 4 0 0 1-4-4V14a4 4 0 0 1 4-4zm3 5h66a2 2 0 0 1 2 2v66a2 2 0 0 1-2 2H17a2 2 0 0 1-2-2V17a2 2 0 0 1 2-2z" />
+  <!-- Inner Core Plate with 9 Bold Cutout Apertures -->
+  <path fill="#FCF9F5" fill-rule="evenodd" d="M21 21h58v58H21ZM27.5 27.5h11v11h-11ZM44.5 27.5h11v11h-11ZM61.5 27.5h11v11h-11ZM27.5 44.5h11v11h-11ZM44.5 44.5h11v11h-11ZM61.5 44.5h11v11h-11ZM27.5 61.5h11v11h-11ZM44.5 61.5h11v11h-11ZM61.5 61.5h11v11h-11Z" />
+</svg>

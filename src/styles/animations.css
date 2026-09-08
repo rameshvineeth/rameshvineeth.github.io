@@ -1,0 +1,276 @@
+/* Kinetic Animations & Keyframes */
+
+@keyframes marqueeScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes floralShift {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes eyeBlink {
+  0%, 45%, 55%, 100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.1);
+  }
+}
+
+@keyframes floatSway {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-6px) rotate(1deg);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes modalPop {
+  from {
+    opacity: 0;
+    transform: scale(0.92) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes waveSignal {
+  0% {
+    stroke-dashoffset: 60;
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 0.2;
+  }
+}
+
+.float-slow {
+  animation: floatSway 6s ease-in-out infinite;
+}
+
+.pulse-node {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+/* Progressive Scroll-Driven Entry Effects */
+@supports ((animation-timeline: view()) and (animation-range: entry)) {
+  .scroll-reveal {
+    animation: revealEffect linear both;
+    animation-timeline: view();
+    animation-range: entry 10% entry 40%;
+  }
+
+  @keyframes revealEffect {
+    from {
+      opacity: 0;
+      transform: translateY(30px) scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+}
+
+/* Fallback for browsers without animation-timeline */
+.scroll-reveal-active {
+  opacity: 1 !important;
+  transform: translateY(0) scale(1) !important;
+  transition: opacity 0.6s var(--ease-spring), transform 0.6s var(--ease-spring);
+}
+
+.scroll-reveal-initial {
+  opacity: 0;
+  transform: translateY(25px) scale(0.98);
+}
+
+/* ==========================================================================
+   Tines Diving-Bell Jelly Mascot Keyframes
+   ========================================================================== */
+@keyframes tentacleWaveLeft {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-8deg) translateY(-1px);
+  }
+}
+
+@keyframes tentacleWaveMid {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(8deg) translateY(1px);
+  }
+}
+
+@keyframes tentacleWaveRight {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(7deg);
+  }
+}
+
+@keyframes tubeBreathe {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.04) translateY(-0.5px);
+  }
+}
+
+@keyframes beamShimmer {
+  0%, 100% {
+    opacity: 0.92;
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-50%) scale(1.03);
+  }
+}
+
+@keyframes heliAerialFlip {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  40% {
+    transform: rotate(180deg) scale(1.2) translateY(-30px);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes sparklePop {
+  0% {
+    transform: translate(0, 0) scale(0.3);
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translate(var(--tx, 20px), var(--ty, -20px)) scale(1.2);
+    opacity: 0;
+  }
+}
+
+@keyframes rotorSpinDisc {
+  from {
+    transform: rotate(0deg) scaleY(0.42);
+  }
+  to {
+    transform: rotate(360deg) scaleY(0.42);
+  }
+}
+
+@keyframes lightBurstExpand {
+  0% {
+    transform: translate(-50%, -50%) scale(0.2);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.95;
+    transform: translate(-50%, -50%) scale(2.2);
+    filter: drop-shadow(0 0 18px rgba(236, 72, 153, 0.9));
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(3.2);
+  }
+}
+
+.heli-sparkle {
+  position: absolute;
+  top: 32px;
+  left: 50%;
+  font-size: 15px;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 60;
+  animation: sparklePop 0.75s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  user-select: none;
+}
+
+/* Violet Section Base Floral Bed Animations */
+@keyframes meadowFlowerBreeze {
+  0% {
+    transform: rotate(calc(var(--sway-deg, 2.5deg) * -1)) scale(1);
+  }
+  50% {
+    transform: rotate(var(--sway-deg, 2.5deg)) scale(1.05) translateY(-2px);
+  }
+  100% {
+    transform: rotate(calc(var(--sway-deg, 2.5deg) * -0.7)) scale(0.97);
+  }
+}
+
+@keyframes meadowCenterPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.92;
+    filter: drop-shadow(0 0 2px rgba(251, 191, 36, 0.4));
+  }
+  50% {
+    transform: scale(1.22);
+    opacity: 1;
+    filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.95)) drop-shadow(0 0 14px rgba(245, 158, 11, 0.6));
+  }
+}
+
+@keyframes meadowLeafFlutter {
+  0%, 100% {
+    transform: rotate(-6deg) scale(0.95);
+  }
+  50% {
+    transform: rotate(8deg) scale(1.1);
+  }
+}
+
+@keyframes meadowGroundWave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px) scaleY(1.015);
+  }
+}
+
+
+

@@ -1,0 +1,338 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+  <defs>
+    <style>
+      .o { stroke: #2A085C; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+      .o-b { stroke: #2A085C; stroke-width: 2.8; stroke-linecap: round; stroke-linejoin: round; }
+      .p-lavender { fill: #A78BFA; }
+      .p-periwinkle { fill: #C4B5FD; }
+      .p-softlilac { fill: #DDD6FE; }
+      .p-purple { fill: #7C3AED; }
+      .p-deeppurple { fill: #4C1D95; }
+      .p-hotpink { fill: #EC4899; }
+      .p-pink { fill: #F472B6; }
+      .p-rose { fill: #FB7185; }
+      .p-softpink { fill: #FBCFE8; }
+      .p-mint { fill: #6EE7B7; }
+      .p-softmint { fill: #A7F3D0; }
+      .p-lime { fill: #BEF264; }
+      .p-brightlime { fill: #A3E635; }
+      .p-orange { fill: #F97316; }
+      .p-amber { fill: #F59E0B; }
+      .p-yellow { fill: #FACC15; }
+      .p-white { fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <!-- Deep Solid Underlay -->
+  <rect width="360" height="360" fill="#A78BFA"/>
+
+  <!-- ==============================================================
+       LAYER 1: WALL-TO-WALL DENSE UNDERLAY FLOWERS & CLOVERS
+       ============================================================== -->
+  <g class="o">
+    <!-- Underlay Row 1 -->
+    <g transform="translate(0, 0)"><circle cx="0" cy="0" r="38" class="p-periwinkle"/><circle cx="0" cy="0" r="22" class="p-lavender"/><circle cx="0" cy="0" r="10" class="p-yellow"/></g>
+    <g transform="translate(60, 0)"><circle cx="0" cy="0" r="32" class="p-softpink"/><circle cx="0" cy="0" r="18" class="p-hotpink"/><circle cx="0" cy="0" r="8" class="p-white"/></g>
+    <g transform="translate(120, 0)"><circle cx="0" cy="0" r="35" class="p-mint"/><circle cx="0" cy="0" r="20" class="p-softmint"/><circle cx="0" cy="0" r="9" class="p-purple"/></g>
+    <g transform="translate(180, 0)"><circle cx="0" cy="0" r="34" class="p-rose"/><circle cx="0" cy="0" r="18" class="p-yellow"/><circle cx="0" cy="0" r="7" class="p-deeppurple"/></g>
+    <g transform="translate(240, 0)"><circle cx="0" cy="0" r="36" class="p-periwinkle"/><circle cx="0" cy="0" r="20" class="p-purple"/><circle cx="0" cy="0" r="8" class="p-yellow"/></g>
+    <g transform="translate(300, 0)"><circle cx="0" cy="0" r="32" class="p-lime"/><circle cx="0" cy="0" r="18" class="p-hotpink"/><circle cx="0" cy="0" r="8" class="p-white"/></g>
+    <g transform="translate(360, 0)"><circle cx="0" cy="0" r="38" class="p-periwinkle"/><circle cx="0" cy="0" r="22" class="p-lavender"/><circle cx="0" cy="0" r="10" class="p-yellow"/></g>
+
+    <!-- Underlay Row 2 -->
+    <g transform="translate(30, 60)"><circle cx="0" cy="0" r="36" class="p-hotpink"/><circle cx="0" cy="0" r="20" class="p-softpink"/><circle cx="0" cy="0" r="9" class="p-yellow"/></g>
+    <g transform="translate(90, 60)"><circle cx="0" cy="0" r="34" class="p-purple"/><circle cx="0" cy="0" r="19" class="p-periwinkle"/><circle cx="0" cy="0" r="8" class="p-orange"/></g>
+    <g transform="translate(150, 60)"><circle cx="0" cy="0" r="35" class="p-softmint"/><circle cx="0" cy="0" r="19" class="p-mint"/><circle cx="0" cy="0" r="8" class="p-hotpink"/></g>
+    <g transform="translate(210, 60)"><circle cx="0" cy="0" r="36" class="p-pink"/><circle cx="0" cy="0" r="20" class="p-lavender"/><circle cx="0" cy="0" r="9" class="p-yellow"/></g>
+    <g transform="translate(270, 60)"><circle cx="0" cy="0" r="35" class="p-orange"/><circle cx="0" cy="0" r="19" class="p-yellow"/><circle cx="0" cy="0" r="8" class="p-deeppurple"/></g>
+    <g transform="translate(330, 60)"><circle cx="0" cy="0" r="34" class="p-periwinkle"/><circle cx="0" cy="0" r="19" class="p-purple"/><circle cx="0" cy="0" r="8" class="p-lime"/></g>
+
+    <!-- Underlay Row 3 -->
+    <g transform="translate(0, 120)"><circle cx="0" cy="0" r="35" class="p-lime"/><circle cx="0" cy="0" r="19" class="p-hotpink"/><circle cx="0" cy="0" r="8" class="p-white"/></g>
+    <g transform="translate(60, 120)"><circle cx="0" cy="0" r="36" class="p-lavender"/><circle cx="0" cy="0" r="20" class="p-periwinkle"/><circle cx="0" cy="0" r="9" class="p-yellow"/></g>
+    <g transform="translate(120, 120)"><circle cx="0" cy="0" r="35" class="p-rose"/><circle cx="0" cy="0" r="19" class="p-softpink"/><circle cx="0" cy="0" r="8" class="p-purple"/></g>
+    <g transform="translate(180, 120)"><circle cx="0" cy="0" r="36" class="p-mint"/><circle cx="0" cy="0" r="20" class="p-purple"/><circle cx="0" cy="0" r="9" class="p-yellow"/></g>
+    <g transform="translate(240, 120)"><circle cx="0" cy="0" r="35" class="p-hotpink"/><circle cx="0" cy="0" r="19" class="p-orange"/><circle cx="0" cy="0" r="8" class="p-white"/></g>
+    <g transform="translate(300, 120)"><circle cx="0" cy="0" r="36" class="p-purple"/><circle cx="0" cy="0" r="20" class="p-lavender"/><circle cx="0" cy="0" r="9" class="p-lime"/></g>
+    <g transform="translate(360, 120)"><circle cx="0" cy="0" r="35" class="p-lime"/><circle cx="0" cy="0" r="19" class="p-hotpink"/><circle cx="0" cy="0" r="8" class="p-white"/></g>
+
+    <!-- Underlay Row 4 -->
+    <g transform="translate(30, 180)"><circle cx="0" cy="0" r="35" class="p-softpink"/><circle cx="0" cy="0" r="19" class="p-pink"/><circle cx="0" cy="0" r="8" class="p-yellow"/></g>
+    <g transform="translate(90, 180)"><circle cx="0" cy="0" r="36" class="p-orange"/><circle cx="0" cy="0" r="20" class="p-yellow"/><circle cx="0" cy="0" r="9" class="p-deeppurple"/></g>
+    <g transform="translate(150, 180)"><circle cx="0" cy="0" r="35" class="p-periwinkle"/><circle cx="0" cy="0" r="19" class="p-purple"/><circle cx="0" cy="0" r="8" class="p-hotpink"/></g>
+    <g transform="translate(210, 180)"><circle cx="0" cy="0" r="36" class="p-lime"/><circle cx="0" cy="0" r="20" class="p-mint"/><circle cx="0" cy="0" r="9" class="p-purple"/></g>
+    <g transform="translate(270, 180)"><circle cx="0" cy="0" r="35" class="p-rose"/><circle cx="0" cy="0" r="19" class="p-hotpink"/><circle cx="0" cy="0" r="8" class="p-white"/></g>
+    <g transform="translate(330, 180)"><circle cx="0" cy="0" r="36" class="p-lavender"/><circle cx="0" cy="0" r="20" class="p-softlilac"/><circle cx="0" cy="0" r="9" class="p-yellow"/></g>
+
+    <!-- Underlay Row 5 -->
+    <g transform="translate(0, 240)"><circle cx="0" cy="0" r="36" class="p-hotpink"/><circle cx="0" cy="0" r="20" class="p-softpink"/><circle cx="0" cy="0" r="9" class="p-yellow"/></g>
+    <g transform="translate(60, 240)"><circle cx="0" cy="0" r="35" class="p-mint"/><circle cx="0" cy="0" r="19" class="p-softmint"/><circle cx="0" cy="0" r="8" class="p-purple"/></g>
+    <g transform="translate(120, 240)"><circle cx="0" cy="0" r="36" class="p-purple"/><circle cx="0" cy="0" r="20" class="p-lavender"/><circle cx="0" cy="0" r="9" class="p-yellow"/></g>
+    <g transform="translate(180, 240)"><circle cx="0" cy="0" r="35" class="p-orange"/><circle cx="0" cy="0" r="19" class="p-yellow"/><circle cx="0" cy="0" r="8" class="p-deeppurple"/></g>
+    <g transform="translate(240, 240)"><circle cx="0" cy="0" r="36" class="p-periwinkle"/><circle cx="0" cy="0" r="20" class="p-purple"/><circle cx="0" cy="0" r="9" class="p-lime"/></g>
+    <g transform="translate(300, 240)"><circle cx="0" cy="0" r="35" class="p-pink"/><circle cx="0" cy="0" r="19" class="p-rose"/><circle cx="0" cy="0" r="8" class="p-white"/></g>
+    <g transform="translate(360, 240)"><circle cx="0" cy="0" r="36" class="p-hotpink"/><circle cx="0" cy="0" r="20" class="p-softpink"/><circle cx="0" cy="0" r="9" class="p-yellow"/></g>
+
+    <!-- Underlay Row 6 -->
+    <g transform="translate(30, 300)"><circle cx="0" cy="0" r="35" class="p-lavender"/><circle cx="0" cy="0" r="19" class="p-periwinkle"/><circle cx="0" cy="0" r="8" class="p-yellow"/></g>
+    <g transform="translate(90, 300)"><circle cx="0" cy="0" r="36" class="p-lime"/><circle cx="0" cy="0" r="20" class="p-hotpink"/><circle cx="0" cy="0" r="9" class="p-white"/></g>
+    <g transform="translate(150, 300)"><circle cx="0" cy="0" r="35" class="p-rose"/><circle cx="0" cy="0" r="19" class="p-orange"/><circle cx="0" cy="0" r="8" class="p-yellow"/></g>
+    <g transform="translate(210, 300)"><circle cx="0" cy="0" r="36" class="p-softmint"/><circle cx="0" cy="0" r="20" class="p-mint"/><circle cx="0" cy="0" r="9" class="p-purple"/></g>
+    <g transform="translate(270, 300)"><circle cx="0" cy="0" r="35" class="p-purple"/><circle cx="0" cy="0" r="19" class="p-lavender"/><circle cx="0" cy="0" r="8" class="p-yellow"/></g>
+    <g transform="translate(330, 300)"><circle cx="0" cy="0" r="36" class="p-hotpink"/><circle cx="0" cy="0" r="20" class="p-softpink"/><circle cx="0" cy="0" r="9" class="p-white"/></g>
+
+    <!-- Underlay Row 7 -->
+    <g transform="translate(0, 360)"><circle cx="0" cy="0" r="38" class="p-periwinkle"/><circle cx="0" cy="0" r="22" class="p-lavender"/><circle cx="0" cy="0" r="10" class="p-yellow"/></g>
+    <g transform="translate(60, 360)"><circle cx="0" cy="0" r="32" class="p-softpink"/><circle cx="0" cy="0" r="18" class="p-hotpink"/><circle cx="0" cy="0" r="8" class="p-white"/></g>
+    <g transform="translate(120, 360)"><circle cx="0" cy="0" r="35" class="p-mint"/><circle cx="0" cy="0" r="20" class="p-softmint"/><circle cx="0" cy="0" r="9" class="p-purple"/></g>
+    <g transform="translate(180, 360)"><circle cx="0" cy="0" r="34" class="p-rose"/><circle cx="0" cy="0" r="18" class="p-yellow"/><circle cx="0" cy="0" r="7" class="p-deeppurple"/></g>
+    <g transform="translate(240, 360)"><circle cx="0" cy="0" r="36" class="p-periwinkle"/><circle cx="0" cy="0" r="20" class="p-purple"/><circle cx="0" cy="0" r="8" class="p-yellow"/></g>
+    <g transform="translate(300, 360)"><circle cx="0" cy="0" r="32" class="p-lime"/><circle cx="0" cy="0" r="18" class="p-hotpink"/><circle cx="0" cy="0" r="8" class="p-white"/></g>
+    <g transform="translate(360, 360)"><circle cx="0" cy="0" r="38" class="p-periwinkle"/><circle cx="0" cy="0" r="22" class="p-lavender"/><circle cx="0" cy="0" r="10" class="p-yellow"/></g>
+  </g>
+
+  <!-- ==============================================================
+       LAYER 2: TIGHTLY OVERLAPPING MAIN POP-ART BLOOMS & ASTERS
+       ============================================================== -->
+  <g class="o-b">
+    <!-- 1. Hot Pink Spiky Aster (Top Left: 55, 30) -->
+    <g transform="translate(55, 30)">
+      <path d="M 0 -28 L 3 -10 L 12 -26 L 6 -8 L 20 -20 L 9 -6 L 26 -12 L 10 -3 L 28 0 L 10 3 L 26 12 L 9 6 L 20 20 L 6 8 L 12 26 L 3 10 L 0 28 L -3 10 L -12 26 L -6 8 L -20 20 L -9 6 L -26 12 L -10 3 L -28 0 L -10 -3 L -26 -12 L -9 -6 L -20 -20 L -6 -8 L -12 -26 L -3 -10 Z" class="p-hotpink"/>
+      <circle cx="0" cy="0" r="10" class="p-yellow"/><circle cx="0" cy="0" r="4.5" class="p-white"/>
+    </g>
+
+    <!-- 2. Lavender Multi-Petal Daisy (Top: 135, 40) -->
+    <g transform="translate(135, 40)">
+      <g class="p-lavender">
+        <circle cx="0" cy="-22" r="8"/><circle cx="16" cy="-16" r="8"/><circle cx="22" cy="0" r="8"/><circle cx="16" cy="16" r="8"/>
+        <circle cx="0" cy="22" r="8"/><circle cx="-16" cy="16" r="8"/><circle cx="-22" cy="0" r="8"/><circle cx="-16" cy="-16" r="8"/>
+      </g>
+      <circle cx="0" cy="0" r="14" class="p-softlilac"/><circle cx="0" cy="0" r="7" class="p-purple"/>
+    </g>
+
+    <!-- 3. Mint 4-Lobe Clover Flower (Top: 215, 35) -->
+    <g transform="translate(215, 35)">
+      <g class="p-mint">
+        <circle cx="0" cy="-16" r="11"/><circle cx="16" cy="0" r="11"/><circle cx="0" cy="16" r="11"/><circle cx="-16" cy="0" r="11"/>
+      </g>
+      <circle cx="0" cy="0" r="12" class="p-periwinkle"/><circle cx="0" cy="0" r="5" class="p-hotpink"/>
+    </g>
+
+    <!-- 4. Deep Purple Rosette (Top Right: 295, 45) -->
+    <g transform="translate(295, 45)">
+      <g class="p-purple">
+        <circle cx="0" cy="-24" r="9"/><circle cx="17" cy="-17" r="9"/><circle cx="24" cy="0" r="9"/><circle cx="17" cy="17" r="9"/>
+        <circle cx="0" cy="24" r="9"/><circle cx="-17" cy="17" r="9"/><circle cx="-24" cy="0" r="9"/><circle cx="-17" cy="-17" r="9"/>
+      </g>
+      <circle cx="0" cy="0" r="15" class="p-pink"/><circle cx="0" cy="0" r="8" class="p-yellow"/><circle cx="0" cy="0" r="3.5" class="p-deeppurple"/>
+    </g>
+
+    <!-- 5. Lime 3-Lobe Foliage (Top Edge: 355, 30) -->
+    <g transform="translate(355, 30)">
+      <g class="p-lime">
+        <ellipse cx="0" cy="-14" rx="7" ry="12"/>
+        <ellipse cx="12" cy="8" rx="7" ry="12" transform="rotate(120 12 8)"/>
+        <ellipse cx="-12" cy="8" rx="7" ry="12" transform="rotate(-120 -12 8)"/>
+      </g>
+      <circle cx="0" cy="0" r="5" class="p-orange"/>
+    </g>
+
+    <!-- 6. Orange Buttercup (Mid-Top-Left: 30, 105) -->
+    <g transform="translate(30, 105)">
+      <g class="p-orange">
+        <circle cx="0" cy="-18" r="9"/><circle cx="16" cy="-6" r="9"/><circle cx="10" cy="15" r="9"/><circle cx="-10" cy="15" r="9"/><circle cx="-16" cy="-6" r="9"/>
+      </g>
+      <circle cx="0" cy="0" r="10" class="p-yellow"/><circle cx="0" cy="0" r="4.5" class="p-deeppurple"/>
+    </g>
+
+    <!-- 7. GIANT PERIWINKLE PEONY (Mid-Top: 105, 105) -->
+    <g transform="translate(105, 105)">
+      <g class="p-periwinkle">
+        <circle cx="0" cy="-30" r="11"/><circle cx="21" cy="-21" r="11"/><circle cx="30" cy="0" r="11"/><circle cx="21" cy="21" r="11"/>
+        <circle cx="0" cy="30" r="11"/><circle cx="-21" cy="21" r="11"/><circle cx="-30" cy="0" r="11"/><circle cx="-21" cy="-21" r="11"/>
+      </g>
+      <g class="p-lavender">
+        <circle cx="0" cy="-18" r="8"/><circle cx="18" cy="0" r="8"/><circle cx="0" cy="18" r="8"/><circle cx="-18" cy="0" r="8"/>
+      </g>
+      <circle cx="0" cy="0" r="12" class="p-hotpink"/><circle cx="0" cy="0" r="6" class="p-yellow"/><circle cx="0" cy="0" r="2.5" class="p-white"/>
+    </g>
+
+    <!-- 8. Spiky Violet Aster (Mid-Top: 185, 110) -->
+    <g transform="translate(185, 110)">
+      <path d="M 0 -30 L 3 -10 L 13 -28 L 6 -9 L 21 -21 L 10 -6 L 28 -13 L 10 -3 L 30 0 L 10 3 L 28 13 L 10 6 L 21 21 L 6 9 L 13 28 L 3 10 L 0 30 L -3 10 L -13 28 L -6 9 L -21 21 L -10 6 L -28 13 L -10 3 L -30 0 L -10 -3 L -28 -13 L -10 -6 L -21 -21 L -6 -9 L -13 -28 L -3 -10 Z" class="p-violet"/>
+      <circle cx="0" cy="0" r="11" class="p-yellow"/><circle cx="0" cy="0" r="5" class="p-hotpink"/>
+    </g>
+
+    <!-- 9. Hot-Pink Radiating Daisy (Mid-Top: 260, 105) -->
+    <g transform="translate(260, 105)">
+      <g class="p-hotpink">
+        <circle cx="0" cy="-24" r="9"/><circle cx="17" cy="-17" r="9"/><circle cx="24" cy="0" r="9"/><circle cx="17" cy="17" r="9"/>
+        <circle cx="0" cy="24" r="9"/><circle cx="-17" cy="17" r="9"/><circle cx="-24" cy="0" r="9"/><circle cx="-17" cy="-17" r="9"/>
+      </g>
+      <circle cx="0" cy="0" r="14" class="p-softmint"/><circle cx="0" cy="0" r="7" class="p-purple"/><circle cx="0" cy="0" r="3" class="p-yellow"/>
+    </g>
+
+    <!-- 10. Mint Starburst (Mid-Top-Right: 335, 110) -->
+    <g transform="translate(335, 110)">
+      <path d="M 0 -26 L 4 -8 L 18 -18 L 8 -4 L 26 0 L 8 4 L 18 18 L 4 8 L 0 26 L -4 8 L -18 18 L -8 4 L -26 0 L -8 -4 L -18 -18 L -4 -8 Z" class="p-mint"/>
+      <circle cx="0" cy="0" r="10" class="p-orange"/><circle cx="0" cy="0" r="4.5" class="p-yellow"/>
+    </g>
+
+    <!-- 11. Lime Foliage Cluster (Center-Left: 55, 175) -->
+    <g transform="translate(55, 175)">
+      <g class="p-brightlime">
+        <ellipse cx="0" cy="-15" rx="8" ry="13"/>
+        <ellipse cx="14" cy="9" rx="8" ry="13" transform="rotate(120 14 9)"/>
+        <ellipse cx="-14" cy="9" rx="8" ry="13" transform="rotate(-120 -14 9)"/>
+      </g>
+      <circle cx="0" cy="0" r="6" class="p-purple"/>
+    </g>
+
+    <!-- 12. Deep Purple Dahlia (Center-Left: 130, 180) -->
+    <g transform="translate(130, 180)">
+      <g class="p-purple">
+        <circle cx="0" cy="-24" r="9"/><circle cx="17" cy="-17" r="9"/><circle cx="24" cy="0" r="9"/><circle cx="17" cy="17" r="9"/>
+        <circle cx="0" cy="24" r="9"/><circle cx="-17" cy="17" r="9"/><circle cx="-24" cy="0" r="9"/><circle cx="-17" cy="-17" r="9"/>
+      </g>
+      <circle cx="0" cy="0" r="14" class="p-pink"/><circle cx="0" cy="0" r="7" class="p-yellow"/><circle cx="0" cy="0" r="3" class="p-white"/>
+    </g>
+
+    <!-- 13. GRAND CENTRAL PINK & MINT BLOSSOM (Dead Center: 210, 180) -->
+    <g transform="translate(210, 180)">
+      <g class="p-pink">
+        <circle cx="0" cy="-32" r="12"/><circle cx="23" cy="-23" r="12"/><circle cx="32" cy="0" r="12"/><circle cx="23" cy="23" r="12"/>
+        <circle cx="0" cy="32" r="12"/><circle cx="-23" cy="23" r="12"/><circle cx="-32" cy="0" r="12"/><circle cx="-23" cy="-23" r="12"/>
+      </g>
+      <g class="p-softmint">
+        <circle cx="0" cy="-18" r="9"/><circle cx="18" cy="0" r="9"/><circle cx="0" cy="18" r="9"/><circle cx="-18" cy="0" r="9"/>
+      </g>
+      <circle cx="0" cy="0" r="12" class="p-purple"/><circle cx="0" cy="0" r="6" class="p-yellow"/><circle cx="0" cy="0" r="2.5" class="p-white"/>
+    </g>
+
+    <!-- 14. Lavender Rosette (Center-Right: 290, 175) -->
+    <g transform="translate(290, 175)">
+      <g class="p-lavender">
+        <circle cx="0" cy="-24" r="9"/><circle cx="17" cy="-17" r="9"/><circle cx="24" cy="0" r="9"/><circle cx="17" cy="17" r="9"/>
+        <circle cx="0" cy="24" r="9"/><circle cx="-17" cy="17" r="9"/><circle cx="-24" cy="0" r="9"/><circle cx="-17" cy="-17" r="9"/>
+      </g>
+      <circle cx="0" cy="0" r="14" class="p-hotpink"/><circle cx="0" cy="0" r="7" class="p-yellow"/><circle cx="0" cy="0" r="3" class="p-white"/>
+    </g>
+
+    <!-- 15. Orange Buttercup (Center-Far-Right: 355, 180) -->
+    <g transform="translate(355, 180)">
+      <g class="p-orange">
+        <circle cx="0" cy="-18" r="9"/><circle cx="16" cy="-6" r="9"/><circle cx="10" cy="15" r="9"/><circle cx="-10" cy="15" r="9"/><circle cx="-16" cy="-6" r="9"/>
+      </g>
+      <circle cx="0" cy="0" r="10" class="p-periwinkle"/><circle cx="0" cy="0" r="4.5" class="p-deeppurple"/>
+    </g>
+
+    <!-- 16. Spiky Hot-Pink Aster (Mid-Bottom-Left: 35, 250) -->
+    <g transform="translate(35, 250)">
+      <path d="M 0 -28 L 3 -10 L 12 -26 L 6 -8 L 20 -20 L 9 -6 L 26 -12 L 10 -3 L 28 0 L 10 3 L 26 12 L 9 6 L 20 20 L 6 8 L 12 26 L 3 10 L 0 28 L -3 10 L -12 26 L -6 8 L -20 20 L -9 6 L -26 12 L -10 3 L -28 0 L -10 -3 L -26 -12 L -9 -6 L -20 -20 L -6 -8 L -12 -26 L -3 -10 Z" class="p-hotpink"/>
+      <circle cx="0" cy="0" r="10" class="p-yellow"/><circle cx="0" cy="0" r="4.5" class="p-purple"/>
+    </g>
+
+    <!-- 17. Seafoam 4-Lobe Blossom (Mid-Bottom: 110, 255) -->
+    <g transform="translate(110, 255)">
+      <g class="p-softmint">
+        <circle cx="0" cy="-16" r="11"/><circle cx="16" cy="0" r="11"/><circle cx="0" cy="16" r="11"/><circle cx="-16" cy="0" r="11"/>
+      </g>
+      <circle cx="0" cy="0" r="12" class="p-lavender"/><circle cx="0" cy="0" r="5.5" class="p-orange"/>
+    </g>
+
+    <!-- 18. Periwinkle Daisy (Mid-Bottom: 185, 250) -->
+    <g transform="translate(185, 250)">
+      <g class="p-periwinkle">
+        <circle cx="0" cy="-24" r="9"/><circle cx="17" cy="-17" r="9"/><circle cx="24" cy="0" r="9"/><circle cx="17" cy="17" r="9"/>
+        <circle cx="0" cy="24" r="9"/><circle cx="-17" cy="17" r="9"/><circle cx="-24" cy="0" r="9"/><circle cx="-17" cy="-17" r="9"/>
+      </g>
+      <circle cx="0" cy="0" r="14" class="p-purple"/><circle cx="0" cy="0" r="7" class="p-yellow"/><circle cx="0" cy="0" r="3" class="p-white"/>
+    </g>
+
+    <!-- 19. Golden Amber Sunflower (Mid-Bottom: 265, 255) -->
+    <g transform="translate(265, 255)">
+      <g class="p-amber">
+        <polygon points="0,-24 6,-8 24,0 8,6 0,24 -6,8 -24,0 -8,-6" />
+        <polygon points="-17,-17 0,-9 17,-17 9,0 17,17 0,9 -17,17 -9,0" />
+      </g>
+      <circle cx="0" cy="0" r="11" class="p-hotpink"/><circle cx="0" cy="0" r="5" class="p-white"/>
+    </g>
+
+    <!-- 20. Purple Rosette (Mid-Bottom-Right: 340, 250) -->
+    <g transform="translate(340, 250)">
+      <g class="p-purple">
+        <circle cx="0" cy="-24" r="9"/><circle cx="17" cy="-17" r="9"/><circle cx="24" cy="0" r="9"/><circle cx="17" cy="17" r="9"/>
+        <circle cx="0" cy="24" r="9"/><circle cx="-17" cy="17" r="9"/><circle cx="-24" cy="0" r="9"/><circle cx="-17" cy="-17" r="9"/>
+      </g>
+      <circle cx="0" cy="0" r="13" class="p-lime"/><circle cx="0" cy="0" r="6" class="p-yellow"/><circle cx="0" cy="0" r="2.5" class="p-white"/>
+    </g>
+
+    <!-- 21. Hot-Pink Aster (Bottom Left: 65, 325) -->
+    <g transform="translate(65, 325)">
+      <path d="M 0 -26 L 3 -9 L 11 -24 L 5 -7 L 18 -18 L 8 -5 L 24 -11 L 9 -3 L 26 0 L 9 3 L 24 11 L 8 5 L 18 18 L 5 7 L 11 24 L 3 9 L 0 26 L -3 9 L -11 24 L -5 7 L -18 18 L -8 5 L -24 11 L -9 3 L -26 0 L -9 -3 L -24 -11 L -8 -5 L -18 -18 L -5 -7 L -11 -24 L -3 -9 Z" class="p-rose"/>
+      <circle cx="0" cy="0" r="10" class="p-yellow"/><circle cx="0" cy="0" r="4.5" class="p-deeppurple"/>
+    </g>
+
+    <!-- 22. Lavender Daisy (Bottom: 145, 325) -->
+    <g transform="translate(145, 325)">
+      <g class="p-lavender">
+        <circle cx="0" cy="-22" r="8"/><circle cx="16" cy="-16" r="8"/><circle cx="22" cy="0" r="8"/><circle cx="16" cy="16" r="8"/>
+        <circle cx="0" cy="22" r="8"/><circle cx="-16" cy="16" r="8"/><circle cx="-22" cy="0" r="8"/><circle cx="-16" cy="-16" r="8"/>
+      </g>
+      <circle cx="0" cy="0" r="12" class="p-mint"/><circle cx="0" cy="0" r="5" class="p-purple"/>
+    </g>
+
+    <!-- 23. Mint Starburst (Bottom: 225, 325) -->
+    <g transform="translate(225, 325)">
+      <path d="M 0 -26 L 4 -8 L 18 -18 L 8 -4 L 26 0 L 8 4 L 18 18 L 4 8 L 0 26 L -4 8 L -18 18 L -8 4 L -26 0 L -8 -4 L -18 -18 L -4 -8 Z" class="p-mint"/>
+      <circle cx="0" cy="0" r="10" class="p-purple"/><circle cx="0" cy="0" r="4.5" class="p-yellow"/>
+    </g>
+
+    <!-- 24. Periwinkle Concentric Rosette (Bottom Right: 305, 325) -->
+    <g transform="translate(305, 325)">
+      <g class="p-periwinkle">
+        <circle cx="0" cy="-24" r="9"/><circle cx="17" cy="-17" r="9"/><circle cx="24" cy="0" r="9"/><circle cx="17" cy="17" r="9"/>
+        <circle cx="0" cy="24" r="9"/><circle cx="-17" cy="17" r="9"/><circle cx="-24" cy="0" r="9"/><circle cx="-17" cy="-17" r="9"/>
+      </g>
+      <circle cx="0" cy="0" r="14" class="p-hotpink"/><circle cx="0" cy="0" r="7" class="p-yellow"/><circle cx="0" cy="0" r="3" class="p-white"/>
+    </g>
+  </g>
+
+  <!-- ==============================================================
+       LAYER 3: INTERSTITIAL OVERLAY BUTTONS & BUDS (0% GAPS)
+       ============================================================== -->
+  <g class="o">
+    <circle cx="95" cy="15" r="9" class="p-yellow"/><circle cx="95" cy="15" r="4" class="p-deeppurple"/>
+    <circle cx="175" cy="15" r="8" class="p-lime"/>
+    <circle cx="255" cy="15" r="9" class="p-hotpink"/><circle cx="255" cy="15" r="4" class="p-white"/>
+    <circle cx="335" cy="15" r="8" class="p-orange"/>
+
+    <circle cx="15" cy="70" r="8" class="p-lime"/>
+    <circle cx="70" cy="75" r="8.5" class="p-yellow"/><circle cx="70" cy="75" r="3.5" class="p-deeppurple"/>
+    <circle cx="150" cy="75" r="9" class="p-hotpink"/>
+    <circle cx="230" cy="75" r="8.5" class="p-mint"/>
+    <circle cx="310" cy="75" r="9" class="p-yellow"/><circle cx="310" cy="75" r="4" class="p-purple"/>
+    <circle cx="355" cy="70" r="8" class="p-hotpink"/>
+
+    <circle cx="15" cy="180" r="8.5" class="p-yellow"/>
+    <circle cx="85" cy="140" r="9" class="p-orange"/><circle cx="85" cy="140" r="4" class="p-white"/>
+    <circle cx="165" cy="145" r="8.5" class="p-lime"/>
+    <circle cx="235" cy="145" r="9" class="p-hotpink"/>
+    <circle cx="315" cy="145" r="8.5" class="p-yellow"/><circle cx="315" cy="145" r="3.5" class="p-deeppurple"/>
+    <circle cx="355" cy="140" r="8" class="p-mint"/>
+
+    <circle cx="15" cy="290" r="8.5" class="p-hotpink"/>
+    <circle cx="75" cy="215" r="9" class="p-yellow"/><circle cx="75" cy="215" r="4" class="p-purple"/>
+    <circle cx="160" cy="215" r="8.5" class="p-orange"/>
+    <circle cx="250" cy="215" r="9" class="p-lime"/>
+    <circle cx="325" cy="215" r="8.5" class="p-hotpink"/><circle cx="325" cy="215" r="3.5" class="p-white"/>
+    <circle cx="355" cy="290" r="8" class="p-yellow"/>
+
+    <circle cx="15" cy="350" r="8.5" class="p-mint"/>
+    <circle cx="100" cy="290" r="9" class="p-hotpink"/><circle cx="100" cy="290" r="4" class="p-white"/>
+    <circle cx="175" cy="290" r="8.5" class="p-yellow"/>
+    <circle cx="245" cy="290" r="9" class="p-lime"/>
+    <circle cx="325" cy="290" r="8.5" class="p-purple"/><circle cx="325" cy="290" r="3.5" class="p-yellow"/>
+    <circle cx="355" cy="350" r="8" class="p-orange"/>
+  </g>
+</svg>

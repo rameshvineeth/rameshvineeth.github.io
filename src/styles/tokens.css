@@ -1,0 +1,89 @@
+:root {
+  /* --- Tines Brand Color Palette --- */
+  --page-bg: #FCF9F5;
+  --page-bg-alt: #F6F1EA;
+  --page-surface: #FFFFFF;
+  --page-surface-translucent: rgba(255, 255, 255, 0.85);
+
+  /* Deep Violet Typography & Primary Accents */
+  --purple-deep: #251352;
+  --purple-main: #3D1C8C;
+  --purple-bright: #5236AB;
+  --purple-electric: #5E3BE0;
+  --purple-electric-deep: #4720A8;
+  --purple-light: #F0ECFC;
+  --purple-tint: #FAF7FE;
+  --purple-muted: #6B5B8E;
+  --purple-subtle: rgba(82, 54, 171, 0.08);
+
+  /* Text Colors */
+  --text-primary: #251352;
+  --text-secondary: #5D507B;
+  --text-muted: #7E7399;
+  --text-inverse: #FFFFFF;
+  --text-inverse-muted: #D9CFFB;
+
+  /* Floral & Spirograph Accent Palette */
+  --floral-magenta: #E02475;
+  --floral-rose: #FB7185;
+  --floral-pink: #F472B6;
+  --floral-pink-soft: #FDE8F3;
+  --floral-lilac: #B388FF;
+  --floral-violet: #8B5CF6;
+  --floral-lime: #99E224;
+  --floral-yellow: #FACC15;
+  --floral-cyan: #22D3EE;
+  --floral-green: #34D399;
+  --floral-orange: #FB923C;
+
+  /* Borders & Shadows */
+  --border-subtle: rgba(82, 54, 171, 0.12);
+  --border-medium: rgba(82, 54, 171, 0.22);
+  --border-active: #5236AB;
+  --border-white: rgba(255, 255, 255, 0.2);
+  --shadow-sm: 0 2px 8px rgba(37, 19, 82, 0.04);
+  --shadow-md: 0 12px 32px rgba(37, 19, 82, 0.08);
+  --shadow-lg: 0 24px 60px rgba(37, 19, 82, 0.12);
+  --shadow-glow: 0 0 35px rgba(94, 59, 224, 0.25);
+
+  /* --- Typography Families --- */
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Fraunces', 'Instrument Serif', Georgia, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* --- Fluid Typographic Hierarchy --- */
+  --text-hero: clamp(2.5rem, 5.5vw + 0.5rem, 5.25rem);
+  --text-h1: clamp(2.2rem, 4vw + 0.25rem, 4rem);
+  --text-h2: clamp(1.75rem, 2.75vw + 0.25rem, 2.75rem);
+  --text-h3: clamp(1.25rem, 1.75vw + 0.2rem, 1.75rem);
+  --text-lead: clamp(1.1rem, 1.25vw + 0.2rem, 1.35rem);
+  --text-body: 1rem;
+  --text-small: 0.875rem;
+  --text-micro: 0.75rem;
+
+  /* --- Spacing --- */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.25rem;
+  --space-xl: 3.5rem;
+  --space-2xl: 5.5rem;
+  --space-3xl: 8rem;
+
+  /* --- Radii --- */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-pill: 9999px;
+
+  /* --- Animation Physics --- */
+  --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-smooth: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --duration-fast: 200ms;
+  --duration-normal: 350ms;
+  --duration-slow: 700ms;
+}
